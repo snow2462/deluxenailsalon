@@ -7,47 +7,45 @@
 ?>
 <!-- Frontpage Banner / Slider -->
 
-<?php $kale_frontpage_banner = kale_get_option('kale_frontpage_banner'); 
+<?php $kale_frontpage_banner = kale_get_option('kale_frontpage_banner');
 $kale_example_content = kale_get_option('kale_example_content'); ?>
 
-<?php 
+<?php
 
 $force_banner = false;
 
-/*** Posts Slider ***/ 
+/*** Posts Slider ***/
 
-if ($kale_frontpage_banner == 'Posts') { 
+if ($kale_frontpage_banner == 'Posts') {
     $kale_frontpage_posts_slider_category = kale_get_option('kale_frontpage_posts_slider_category');
     $kale_frontpage_posts_slider_number = kale_get_option('kale_frontpage_posts_slider_number');
     $args = array( 'posts_per_page' => $kale_frontpage_posts_slider_number, 'category' => $kale_frontpage_posts_slider_category );
-    $kale_posts_slider = get_posts( $args ); 
+    $kale_posts_slider = get_posts( $args );
     $n = count($kale_posts_slider);
     if($n > 2) { #own carousel limitation?
     ?>
     <div class="frontpage-slider frontpage-posts-slider">
         <div class="owl-carousel">
-        <?php foreach ( $kale_posts_slider as $post ) { 
-            setup_postdata( $post );  
+        <?php foreach ( $kale_posts_slider as $post ) {
+            setup_postdata( $post );
             $src = wp_get_attachment_image_src( get_post_thumbnail_id(get_the_ID()), 'kale-slider' ) ;
             $featured_image = '';
-			if($src) $featured_image = $src[0]; 
-            else if($kale_example_content == 1) $featured_image = kale_get_sample('slide'); 
+			if($src) $featured_image = $src[0];
+            else if($kale_example_content == 1) $featured_image = kale_get_sample('slide');
             if($featured_image) { ?>
             <div class="item">
                 <img src="<?php echo esc_url($featured_image) ?>" alt="<?php the_title_attribute(); ?>" />
                 <div class="caption">
-                    <p class="date"><?php echo get_the_date(); ?></p>
                     <h2><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-                    <p class="read-more"><a href="<?php the_permalink(); ?>"><?php printf( _nx('%1$s Comment', '%1$s Comments', get_comments_number(), 'comments title', 'kale' ), number_format_i18n( get_comments_number() ) ); ?></a></p>
                 </div>
             </div>
             <?php }
         } wp_reset_postdata(); ?>
         </div>
     </div>
-<?php 
+<?php
     } else { $force_banner = true; }
-} 
+}
 
 /*** Banner ***/ 
 

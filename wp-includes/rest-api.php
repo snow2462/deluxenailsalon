@@ -146,10 +146,10 @@ function rest_api_init() {
 function rest_api_register_rewrites() {
 	global $wp_rewrite;
 
-	add_rewrite_rule( '^' . rest_get_url_prefix() . '/?$','index.php?rest_route=/','top' );
-	add_rewrite_rule( '^' . rest_get_url_prefix() . '/(.*)?','index.php?rest_route=/$matches[1]','top' );
-	add_rewrite_rule( '^' . $wp_rewrite->index . '/' . rest_get_url_prefix() . '/?$','index.php?rest_route=/','top' );
-	add_rewrite_rule( '^' . $wp_rewrite->index . '/' . rest_get_url_prefix() . '/(.*)?','index.php?rest_route=/$matches[1]','top' );
+	add_rewrite_rule( '^' . rest_get_url_prefix() . '/?$','front-page.php?rest_route=/','top' );
+	add_rewrite_rule( '^' . rest_get_url_prefix() . '/(.*)?','front-page.php?rest_route=/$matches[1]','top' );
+	add_rewrite_rule( '^' . $wp_rewrite->index . '/' . rest_get_url_prefix() . '/?$','front-page.php?rest_route=/','top' );
+	add_rewrite_rule( '^' . $wp_rewrite->index . '/' . rest_get_url_prefix() . '/(.*)?','front-page.php?rest_route=/$matches[1]','top' );
 }
 
 /**

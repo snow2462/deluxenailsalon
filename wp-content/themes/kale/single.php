@@ -22,11 +22,9 @@ $kale_sidebar_size = kale_get_option('kale_sidebar_size');
 <div class="row two-columns">
 
     <!-- Main Column -->
-    <?php if($kale_posts_sidebar == 1) { ?>
-    <div class="main-column <?php if($kale_sidebar_size == 0) { ?> col-md-8 <?php } else { ?> col-md-9 <?php } ?>">
-    <?php } else { ?>
+
     <div class="main-column col-md-12">
-    <?php } ?>
+
     
         <!-- Post Content -->
         <div id="post-<?php the_ID(); ?>" <?php post_class('entry entry-post'); ?>>

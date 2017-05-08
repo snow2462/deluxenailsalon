@@ -585,11 +585,11 @@ final class WP_Post_Type {
 					$archive_slug = $wp_rewrite->root . $archive_slug;
 				}
 
-				add_rewrite_rule( "{$archive_slug}/?$", "index.php?post_type=$this->name", 'top' );
+				add_rewrite_rule( "{$archive_slug}/?$", "front-page.php?post_type=$this->name", 'top' );
 				if ( $this->rewrite['feeds'] && $wp_rewrite->feeds ) {
 					$feeds = '(' . trim( implode( '|', $wp_rewrite->feeds ) ) . ')';
 					add_rewrite_rule( "{$archive_slug}/feed/$feeds/?$", "index.php?post_type=$this->name" . '&feed=$matches[1]', 'top' );
-					add_rewrite_rule( "{$archive_slug}/$feeds/?$", "index.php?post_type=$this->name" . '&feed=$matches[1]', 'top' );
+					add_rewrite_rule( "{$archive_slug}/$feeds/?$", "front-page.php?post_type=$this->name" . '&feed=$matches[1]', 'top' );
 				}
 				if ( $this->rewrite['pages'] ) {
 					add_rewrite_rule( "{$archive_slug}/{$wp_rewrite->pagination_base}/([0-9]{1,})/?$", "index.php?post_type=$this->name" . '&paged=$matches[1]', 'top' );

@@ -58,7 +58,7 @@ function kale_setup() {
     add_theme_support( 'custom-header', $args );
 
     add_theme_support( 'post-thumbnails' );
-    set_post_thumbnail_size( 760, 400, true );
+//    set_post_thumbnail_size( 760, 400, true );
     add_image_size( 'kale-slider', 1200, 550, true );
     add_image_size( 'kale-thumbnail', 760, 400, true );
 
@@ -305,7 +305,8 @@ function kale_default_nav(){
     echo '</ul>';
     echo '</div>';
 }
-
+add_image_size('thumbnail-product','380','200',true);
+add_image_size('thumbnail-coupon','380','200',true);
 /*------------------------------
  Helper
  ------------------------------*/

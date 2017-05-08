@@ -525,7 +525,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
                 </rule>
                 <rule name="WordPress Rule 6" stopProcessing="true">
                     <match url="." ignoreCase="false" />
-                    <action type="Rewrite" url="index.php" />
+                    <action type="Rewrite" url="front-page.php" />
                 </rule>
             </rules>
         </rewrite>

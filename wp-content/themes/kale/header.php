@@ -59,7 +59,7 @@
                         $kale_text_logo = kale_get_option('kale_text_logo');
                         if($kale_text_logo == '') $kale_text_logo = get_bloginfo('name');
                     ?>
-                        <h1 class="header-logo-text"><a href="<?php echo esc_url(home_url('/')); ?>"><?php echo esc_html($kale_text_logo) ?></a></h1>
+                        <h1 class="header-logo-text"><a href="<?php home_url();?>"><?php echo esc_html($kale_text_logo) ?></a></h1>
                     <?php } ?>
                 </div>
                 <?php if( display_header_text() ) { ?>
@@ -81,33 +81,21 @@
                         </button>
                     </div>
                     <!-- Navigation -->
-                    <?php if ( has_nav_menu( 'header' ) ) {
-                        $args = array('theme_location'    => 'header', 
-                                      'depth'             => 2,
-                                      'container'         => 'div',
-                                      'container_class'   => 'navbar-collapse collapse',
-                                      'menu_class'        => 'nav navbar-nav',
-                                      'fallback_cb'       => '',
-                                      'walker'            => new wp_bootstrap_navwalker() );
-                        if(kale_get_option('kale_nav_search_icon') == 1) 
-                                $args['items_wrap'] = kale_nav_items_wrap();
-                        wp_nav_menu( $args );
-                    } else {
-                        //wp_page_menu(array('depth'=>1, 'show_home' => true, 'menu_class'=>'navbar-collapse collapse' ));
-                        kale_default_nav();
-                    }
+
+                    <?php
+                    $topMenu = array(
+                        'container'         => 'div',
+                        'container_class'   => 'navbar-collapse collapse',
+                        'menu_class'        => 'nav navbar-nav'
+                    );
+                    wp_nav_menu( $topMenu );
                     ?>
                     <!-- /Navigation -->
                 </nav>
             </div>
             <!-- /Header Row 3 -->
-            
-            
         </div>
         <!-- /Header -->
         
-<?php if(is_front_page() && !is_paged() ) { 
-get_template_part('parts/frontpage', 'banner'); 
-get_template_part('parts/frontpage', 'featured'); 
-} ?>
+
         
