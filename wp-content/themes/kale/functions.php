@@ -83,7 +83,7 @@ function kale_setup() {
 	}
 }
 add_action( 'after_setup_theme', 'kale_setup' );
-
+add_image_size( 'service-thumbnail', 150, 330, true );
 /*------------------------------
  Styles and Scripts
  ------------------------------*/
@@ -96,7 +96,9 @@ function kale_scripts() {
     wp_register_style('bootstrap-select', get_template_directory_uri() . '/assets/css/bootstrap-select.min.css' );
     wp_register_style('font-awesome', get_template_directory_uri().'/assets/css/font-awesome.min.css' );
     wp_register_style('owl-carousel', get_template_directory_uri().'/assets/css/owl.carousel.css' );
-	wp_register_style('frame', get_template_directory_uri().'/assets/css/frame.css' );
+	if(is_page("service")){
+		wp_register_style('frame', get_template_directory_uri().'/assets/css/Frame.css');
+	}
     //fonts
     wp_enqueue_style('kale-googlefont1', '//fonts.googleapis.com/css?family=Montserrat:400,700'); #headings
     wp_enqueue_style('kale-googlefont2', '//fonts.googleapis.com/css?family=Lato:400,700,300,300italic,400italic,700italic'); #body

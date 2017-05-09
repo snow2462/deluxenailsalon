@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4e245f9-fbd8-4332-bd60-9973772d7951" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/kale/img/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/kale/img/googleplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/kale/img/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/kale/assets/css/Frame.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/kale/single-services.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deluxenail.sql" afterPath="$PROJECT_DIR$/deluxenail.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/kale/coupon.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/archive-coupon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/template-service.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/template-service.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/kale/archive-coupon.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/template-coupon.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,22 +19,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="archive-coupon.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/archive-coupon.php">
+      <file leaf-file-name="voice.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53668/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/css/voice.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="426">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-service.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-service.php">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/scp51171/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="595">
+              <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+              <folding>
+                <marker date="1494323948198" expanded="true" signature="3194:3267" ph="..." />
+                <marker date="1494323948198" expanded="true" signature="4140:4315" ph="..." />
+                <marker date="1494323948198" expanded="true" signature="4158:4303" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +60,12 @@
       <find>_image</find>
       <find>css</find>
       <find>_ima</find>
+      <find>#e7ae16</find>
+      <find>_imag</find>
     </findStrings>
+    <replaceStrings>
+      <replace>#48855e</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,11 +84,22 @@
         <option value="$PROJECT_DIR$/wp-content/themes/kale/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/Frame.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kale/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/service.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/archive-coupon.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/archive-service.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp48501/var/www/vhosts/samartroom-m.com/httpdocs/voice/wp_voice.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp19507/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/functions.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp22373/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/archive-voice.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp37213/var/www/vhosts/samartroom-m.com/httpdocs/voice/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-coupon.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-service.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/single-service.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/single-services.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp50226/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/archive-voice.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp53668/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/css/voice.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp51171/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/functions.php" />
       </list>
     </option>
   </component>
@@ -273,7 +287,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dinosaur" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -375,21 +389,22 @@
       <updated>1494206063514</updated>
       <workItem from="1494206065985" duration="23854000" />
       <workItem from="1494292011363" duration="4389000" />
-      <workItem from="1494302463701" duration="5503000" />
+      <workItem from="1494302463701" duration="15877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33746000" />
+    <option name="totallyTimeSpent" value="44120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928064" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32522798" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -426,7 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/archive-coupon.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-coupon.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="115" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="115" />
@@ -488,9 +503,11 @@
           <caret line="97" column="82" lean-forward="false" selection-start-line="97" selection-start-column="82" selection-end-line="97" selection-end-column="82" />
           <folding>
             <element signature="e#143#221#0#PHP" expanded="false" />
-            <marker date="1494297877083" expanded="true" signature="10626:11039" ph="..." />
-            <marker date="1494297877083" expanded="true" signature="10785:11029" ph="..." />
-            <marker date="1494297877083" expanded="true" signature="10874:11014" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10331:10392" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10571:10591" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10708:11121" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10867:11111" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10956:11096" ph="..." />
           </folding>
         </state>
       </provider>
@@ -511,7 +528,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/archive-coupon.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-coupon.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="33" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="33" />
@@ -525,9 +542,11 @@
           <caret line="307" column="34" lean-forward="false" selection-start-line="307" selection-start-column="15" selection-end-line="307" selection-end-column="34" />
           <folding>
             <element signature="e#143#221#0#PHP" expanded="false" />
-            <marker date="1494297877083" expanded="true" signature="10626:11039" ph="..." />
-            <marker date="1494297877083" expanded="true" signature="10785:11029" ph="..." />
-            <marker date="1494297877083" expanded="true" signature="10874:11014" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10331:10392" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10571:10591" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10708:11121" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10867:11111" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10956:11096" ph="..." />
           </folding>
         </state>
       </provider>
@@ -568,14 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-full.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -675,32 +686,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="307" column="51" lean-forward="false" selection-start-line="307" selection-start-column="35" selection-end-line="307" selection-end-column="51" />
-          <folding>
-            <element signature="e#143#221#0#PHP" expanded="false" />
-            <marker date="1494297877083" expanded="true" signature="10626:11039" ph="..." />
-            <marker date="1494297877083" expanded="true" signature="10785:11029" ph="..." />
-            <marker date="1494297877083" expanded="true" signature="10874:11014" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,19 +702,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/archive-coupon.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp44160/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp48501/var/www/vhosts/samartroom-m.com/httpdocs/voice/wp_voice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp47356/var/www/vhosts/samartroom-m.com/httpdocs/faq/faq_wp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp19507/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="92" column="21" lean-forward="true" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp37213/var/www/vhosts/samartroom-m.com/httpdocs/voice/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp22373/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/archive-voice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp47167/var/www/vhosts/samartroom-m.com/httpdocs/faq/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="37" lean-forward="false" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-full.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#article#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="40" lean-forward="false" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-coupon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/single-services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp50226/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/archive-voice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="58" column="23" lean-forward="false" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53668/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/css/voice.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3217">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="e#143#221#0#PHP" expanded="false" />
+            <marker date="1494320129671" expanded="true" signature="10331:10392" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10571:10591" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10708:11121" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10867:11111" ph="..." />
+            <marker date="1494320129671" expanded="true" signature="10956:11096" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp51171/var/www/vhosts/samartroom-m.com/httpdocs/wp/wp-content/themes/samartroom/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding>
+            <marker date="1494323948198" expanded="true" signature="3194:3267" ph="..." />
+            <marker date="1494323948198" expanded="true" signature="4140:4315" ph="..." />
+            <marker date="1494323948198" expanded="true" signature="4158:4303" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
