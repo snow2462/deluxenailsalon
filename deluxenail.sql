@@ -336,7 +336,7 @@ CREATE TABLE `wp_postmeta` (
 --
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
-(1, 2, '_wp_page_template', 'coupon.php'),
+(1, 2, '_wp_page_template', 'archive-coupon.php'),
 (2, 5, '_wp_trash_meta_status', 'publish'),
 (3, 5, '_wp_trash_meta_time', '1494207649'),
 (4, 6, '_wp_trash_meta_status', 'publish'),

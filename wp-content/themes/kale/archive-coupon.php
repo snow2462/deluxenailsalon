@@ -1,4 +1,3 @@
-<?php /* Template Name: Coupon */ ?>
 <?php get_header(); ?>
 	<div class="row" data-fluid=".entry-title">
     <h2 style="text-align: center">These Coupons are applied For 7077 Watercrest PKWY Dallas, TX 75231</h2>

@@ -33,10 +33,10 @@ if($kale_frontpage_featured_posts_show == 1) {
                         <h3 class="entry-title"><?php the_title();?></h3>
                         <div class="entry-thumb">
 				            <?php if(has_post_thumbnail()) { ?>
-                                <?php the_post_thumbnail('thumbnail-product')?>
-				            <?php } else if($kale_example_content == 1) { ?>
-                                <img src="<?php echo esc_url(kale_get_sample($kale_image_size)) ?>" alt="<?php the_title_attribute() ?>" class="img-responsive" />
-				            <?php } ?>
+					            <?php the_post_thumbnail('thumbnail-product'); ?>
+				            <?php } else{
+					            //nothing
+				           } ?>
                         </div>
                         <div class="entry-summary"><?php the_content(); ?></div>
                     </div>
