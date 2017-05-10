@@ -10,7 +10,7 @@
 	                    $args = array(
 		                    'post_type'        => 'services',
 		                    'post_status'      => 'publish',
-		                    'posts_per_page' => 6,
+		                    'posts_per_page' => 7,
 	                    ); ?>
 	                    <?php query_posts($args); ?>
 	                    <?php if (have_posts()) : while (have_posts()) : the_post();?>
@@ -18,7 +18,7 @@
                             <p><a style="color: #303f50;" href="http://deluxenail629.com/manicure/"><strong><?php the_title();?></strong></a></p>
                             <div style="width: 146px; height: 10px; background-color: #48855e;"></div>
                             <p><a href="<?php the_permalink();?>">
-                                    <img class="alignnone size-full wp-image-463 twoimg" style="margin-left: 0px;" title="Pedicure" alt="promotion" src="<?php echo the_post_thumbnail_url();?>" width="146" height="329"></a>
+                                    <img class="alignnone size-full wp-image-463 twoimg" style="margin-left: 0px;" title="<?php the_title();?>" alt="promotion" src="<?php echo the_post_thumbnail_url('service-thumbnail');?>" width="146" height="329"></a>
                             </p>
                         </div>
 	                    <?php endwhile; endif; ?>

@@ -84,6 +84,7 @@ function kale_setup() {
 }
 add_action( 'after_setup_theme', 'kale_setup' );
 add_image_size( 'service-thumbnail', 150, 330, true );
+add_image_size( 'services-thumbnail', 300, 200, true );
 /*------------------------------
  Styles and Scripts
  ------------------------------*/
