@@ -63,7 +63,7 @@
                     <?php } ?>
                 </div>
                 <?php if( display_header_text() ) { ?>
-                <div class="tagline"><?php $tagline = get_bloginfo('description'); if($tagline != '') { ?><p><?php echo esc_html($tagline); ?></p><?php } ?></div>
+                <div class="tagline" style="font-size: 30px;"><?php $tagline = get_bloginfo('description'); if($tagline != '') { ?><p><?php echo esc_html($tagline); ?></p><?php } ?></div>
                 <?php } ?>
             </div>
             <!-- /Header Row 2 -->

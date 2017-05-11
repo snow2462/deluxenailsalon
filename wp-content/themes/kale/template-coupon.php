@@ -1,7 +1,7 @@
 <?php /* Template Name: Template Coupon */ ?>
 <?php get_header(); ?>
 	<div class="row" data-fluid=".entry-title">
-    <h2 style="text-align: center">These Coupons are applied For 7077 Watercrest PKWY Dallas, TX 75231</h2>
+        <h2 class="block-title" style="text-align: center"><span>These Coupons are applied for Deluxe Nail Salon 3</span></h2>
 		<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 		$args = array(
 			'post_type'        => 'coupon',
@@ -36,7 +36,7 @@
 		<?php endwhile; endif; ?>
 	</div>
     <div class="row" data-fluid=".entry-title">
-        <h2 style="text-align: center">These Coupons are applied for 5959 Royal Lane, Suite 629 Dallas, Texas and 11910 Preston Road, Suite 212 Dallas, Texas 75230</h2>
+        <h2 class="block-title" style="text-align: center"><span>These Coupons are applied for Deluxe Nail Salon 1 and Deluxe Nail Salon 2</span></h2>
 		<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 		$args = array(
 			'post_type'        => 'coupon',

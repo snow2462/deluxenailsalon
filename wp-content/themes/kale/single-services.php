@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<h1 style="font-size: 40px;text-align: center;"><?php the_title(); ?> Services</h1>
+<h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?> Services</span></h2>
 <div class="row" data-fluid=".entry-title">
 	<?php if ( is_single( 'pedicure' ) || is_single( 'manicure' ) || is_single( 'massage' ) ) {
 		// check if the repeater field has rows of data
