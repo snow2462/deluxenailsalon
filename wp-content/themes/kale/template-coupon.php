@@ -36,7 +36,7 @@
 		<?php endwhile; endif; ?>
 	</div>
     <div class="row" data-fluid=".entry-title">
-        <h2 style="text-align: center">These Coupons are applied for 11910 Preston Road, Suite 212 Dallas, Texas 75230</h2>
+        <h2 style="text-align: center">These Coupons are applied for 5959 Royal Lane, Suite 629 Dallas, Texas and 11910 Preston Road, Suite 212 Dallas, Texas 75230</h2>
 		<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 		$args = array(
 			'post_type'        => 'coupon',
