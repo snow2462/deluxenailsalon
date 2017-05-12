@@ -59,7 +59,7 @@
                         $kale_text_logo = kale_get_option('kale_text_logo');
                         if($kale_text_logo == '') $kale_text_logo = get_bloginfo('name');
                     ?>
-                        <h1 class="header-logo-text"><a href="<?php home_url();?>"><?php echo esc_html($kale_text_logo) ?></a></h1>
+                        <div class="header-logo-text"><a href="<?php home_url();?>"><?php echo esc_html($kale_text_logo) ?></a></div>
                     <?php } ?>
                 </div>
                 <?php if( display_header_text() ) { ?>

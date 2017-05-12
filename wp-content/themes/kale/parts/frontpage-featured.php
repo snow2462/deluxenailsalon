@@ -17,7 +17,7 @@ if($kale_frontpage_featured_posts_show == 1) {
     <!-- Frontpage Featured Posts -->
     <div class="frontpage-featured-posts">
         <h2 class="block-title"><span>What we offer</span></h2>
-        <div class="row" data-fluid=".entry-title">
+        <div class="row" data-fluid=".entry-title" align="center">
 	<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 	$args = array(
 		'post_type'        => 'post',
@@ -27,7 +27,7 @@ if($kale_frontpage_featured_posts_show == 1) {
 	); ?>
 	<?php query_posts($args); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post();?>
-            <div class="col-md-4">
+            <div class="col-md-4" style="display: inline-block;">
                 <div id="post-<?php the_ID(); ?>" <?php post_class('entry ' . $kale_post_class); ?>>
                     <div class="entry-content">
                         <h3 class="entry-title"><?php the_title();?></h3>
@@ -38,7 +38,7 @@ if($kale_frontpage_featured_posts_show == 1) {
 					            //nothing
 				           } ?>
                         </div>
-                        <div class="entry-summary"><?php the_content(); ?></div>
+                        <div class="entry-summary" style="text-align: center;"><?php the_content(); ?></div>
                     </div>
                 </div>
             </div>

@@ -86,6 +86,8 @@ add_action( 'after_setup_theme', 'kale_setup' );
 add_image_size( 'service-thumbnail', 150, 370, true );
 add_image_size( 'services-thumbnail', 300, 200, true );
 add_image_size( 'contact-thumbnail', 456, 342, true );
+
+
 /*------------------------------
  Styles and Scripts
  ------------------------------*/

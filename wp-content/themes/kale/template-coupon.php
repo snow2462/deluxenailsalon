@@ -1,6 +1,6 @@
 <?php /* Template Name: Template Coupon */ ?>
 <?php get_header(); ?>
-	<div class="row" data-fluid=".entry-title">
+	<div class="row" data-fluid=".entry-title" align="center">
         <h2 class="block-title" style="text-align: center"><span>These Coupons are applied for Deluxe Nail Salon 3</span></h2>
 		<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 		$args = array(
@@ -17,7 +17,7 @@
 		); ?>
 		<?php query_posts($args); ?>
 		<?php if (have_posts()) : while (have_posts()) : the_post();?>
-			<div class="col-md-4">
+			<div class="col-md-4" style="display: inline-block;">
 				<div id="post-<?php the_ID(); ?>" <?php post_class('entry ' . $kale_post_class); ?>>
 					<div class="entry-content">
 						<div class="entry-thumb">
@@ -35,7 +35,7 @@
 			</div>
 		<?php endwhile; endif; ?>
 	</div>
-    <div class="row" data-fluid=".entry-title">
+    <div class="row" data-fluid=".entry-title" align="center">
         <h2 class="block-title" style="text-align: center"><span>These Coupons are applied for Deluxe Nail Salon 1 and Deluxe Nail Salon 2</span></h2>
 		<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
 		$args = array(
@@ -53,7 +53,7 @@
 		<?php query_posts($args); ?>
 		<?php if (have_posts()) : while (have_posts()) : the_post();?>
             <?php $term = get_terms()?>
-            <div class="col-md-4">
+            <div class="col-md-4" style="display: inline-block;">
                 <div id="post-<?php the_ID(); ?>" <?php post_class('entry ' . $kale_post_class); ?>>
                     <div class="entry-content">
                         <div class="entry-thumb">

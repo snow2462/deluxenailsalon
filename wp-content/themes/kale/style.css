@@ -52,7 +52,7 @@ h6{font-size:12px;}
 .block-title span:after{left:auto;right:0}
         
 /* --- Fonts --- */
-.logo .header-logo-text{line-height:60px;font-size:60px;font-weight:200;font-family: 'Raleway', sans-serif;text-transform:uppercase;}
+.logo .header-logo-text{line-height:60px;font-size:60px;font-weight:200;font-family: 'Raleway', sans-serif;}
 .tagline{font-family: 'Caveat', cursive; font-size:18px;}
 
 .form-label{text-transform:uppercase;font-weight:400;font-family: 'Montserrat', sans-serif;}
