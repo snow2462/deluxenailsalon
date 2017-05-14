@@ -30,6 +30,10 @@ function kale_custom_customize_enqueue() {
     wp_enqueue_style( 'kale-customizer', get_template_directory_uri() . '/customize/style.css' );
 }
 
+register_nav_menus(array(
+    'header-menu' => __( 'Header Menu' ),
+    'extra-menu' => __( 'Extra Menu' )
+));
 /*------------------------------
  Setup
  ------------------------------*/
@@ -39,8 +43,7 @@ function kale_setup() {
     global $kale_defaults;
     
     load_theme_textdomain( 'kale', get_template_directory() . '/languages' ); 
-    
-    register_nav_menus( array('header' => esc_html__( 'Main Menu', 'kale' )) );
+
     
     add_theme_support( 'automatic-feed-links' );
     add_theme_support( 'title-tag' );
@@ -86,7 +89,12 @@ add_action( 'after_setup_theme', 'kale_setup' );
 add_image_size( 'service-thumbnail', 150, 370, true );
 add_image_size( 'services-thumbnail', 300, 200, true );
 add_image_size( 'contact-thumbnail', 456, 342, true );
-
+function set_viewport() {
+    ?>
+    <meta name="viewport" content="width=device-width, minimal-ui">
+    <?php
+}
+add_action('wp_head', 'set_viewport');
 
 /*------------------------------
  Styles and Scripts

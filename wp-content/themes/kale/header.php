@@ -81,14 +81,14 @@
                         </button>
                     </div>
                     <!-- Navigation -->
-
                     <?php
                     $topMenu = array(
+                        'menu'            => 'TopMenu',
                         'container'         => 'div',
                         'container_class'   => 'navbar-collapse collapse',
                         'menu_class'        => 'nav navbar-nav'
                     );
-                    wp_nav_menu( $topMenu );
+                    wp_nav_menu($topMenu );
                     ?>
                     <!-- /Navigation -->
                 </nav>

@@ -6,7 +6,7 @@
 	<br>
     <h3 class="block-title" style="font-size: 20px;text-align: center;"><span>Thank you for choosing Deluxe Nail Salon</span></h3>
 	<div class="row" data-fluid=".entry-title" align="center">
-		<div class="col-md-4">
+		<div class="col-xs-6" style="display: inline-block">
 			<div id="post-<?php the_ID(); ?>" <?php post_class( 'entry ' . $kale_post_class ); ?>>
 			<div class="entry-content" style=" font-size: 20px;">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
@@ -22,8 +22,8 @@
                 </div>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<img src="<?php echo the_post_thumbnail_url();?>" width="700" height="480"/>
+		<div class="col-xs-6" style="display: inline-block">
+			<img src="<?php echo the_post_thumbnail_url();?>" width="600" height="380"/>
 		</div>
 	</div>
 <div style="padding-top: 50px;">

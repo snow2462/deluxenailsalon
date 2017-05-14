@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?> Services</span></h2>
-<div class="row" data-fluid=".entry-title">
+<h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?></span></h2>
+<div class="row" data-fluid=".entry-title" style="padding-left: 20px;">
 	<?php if ( is_single( 'pedicure' ) || is_single( 'manicure' ) || is_single( 'massage' ) ) {
 		// check if the repeater field has rows of data
 		if ( have_rows( 'extraservice' ) ):
@@ -10,16 +10,19 @@
 				$i ++; ?>
                 <div class="col-md-4" style="display: inline-block;">
                     <div id="post-<?php the_ID(); ?>" <?php post_class( 'entry ' . $kale_post_class ); ?>>
-                        <h2><?php the_sub_field( 'title' );
-							echo " "; ?><?php the_sub_field( 'price' ); ?></h2>
-                        <div><h3><?php echo 'Duration:' ?><?php the_sub_field( 'minutes' ); ?></h3></div>
+                        <h2><span style="color: #eab800;"><?php the_sub_field( 'title' );
+                                echo " "; ?></span></h2>
+                        <div><table style="width: 80%;">
+                                <tr>
+                                    <td><strong><?php the_sub_field( 'price' ); ?></strong></td>
+                                    <td style="text-align: right;"><strong><?php the_sub_field( 'minutes' ); ?></strong></td>
+                                </tr>
+                            </table>
+                        </div>
                         <div class="entry-content">
-                            <div class="entry-thumb">
-                                <img src="<?php echo home_url( '/' ) . 'image.php?image=' . get_sub_field( 'image' ) . '&width=300&height=200&cropratio=3.9928:3'; ?>"/>
-                            </div>
                             <div style="width: 300px; word-wrap: break-word;">
-                                <p><b><?php the_sub_field( 'subtitle' ); ?></b></p>
                                 <div class="entry-summary"><?php the_sub_field( 'description' ); ?></div>
+                                <p><b><?php the_sub_field( 'subtitle' ); ?></b></p>
                             </div>
 
                         </div>
@@ -170,7 +173,6 @@
 				?>
             </table>
         </div>
-        <div><img src="<?php echo TEMPLATE_DIRECTORY_URI; ?>/img/0904.jpg" width="400" height="350"/></div>
 		<?php }
 		else if ( is_single( 'eyelash-extension' ) ) {
 			?>

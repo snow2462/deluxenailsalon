@@ -1,8 +1,8 @@
 <?php /* Template Name: Template Service */ ?>
 <?php get_header(); ?>
+<h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?></span></h2>
 
-
-<div class="art-content-layout" style="text-align: center">
+<div class="art-content-layout" style="width: auto;text-align: center">
     <div class="art-content-layout-row" style="display: inline-block;">
         <div class="art-layout-cell art-content clearfix"><article id="Home" class="noview  art-post art-article  post-184 post type-post status-publish format-standard hentry category-uncategorized" style="display: block;">
                     <div class="chung" style="width: 100%; margin-top: 30px;">
@@ -26,6 +26,10 @@
                 </div>
             </article>
         </div>
+    <div class="art-content-layout-row" style="display: inline-block;">
+        <p style="font-size: 20px;">
+            We also offer at home service at double the normal price. Please contact us for more information.
+        </p>
     </div>
 </div>
 

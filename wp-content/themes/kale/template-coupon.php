@@ -1,5 +1,6 @@
 <?php /* Template Name: Template Coupon */ ?>
 <?php get_header(); ?>
+    <h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?></span></h2>
 	<div class="row" data-fluid=".entry-title" align="center">
         <h2 class="block-title" style="text-align: center"><span>These Coupons are applied for Deluxe Nail Salon 3</span></h2>
 		<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
