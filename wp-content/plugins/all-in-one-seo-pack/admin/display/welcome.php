@@ -41,8 +41,8 @@ if ( ! class_exists( 'aioseop_welcome' ) ) {
          * @since 2.3.12 Called via admin_menu action instead of admin_head.
 		 */
 		function remove_pages() {
-			remove_submenu_page( 'front-page.php', 'aioseop-about' );
-			remove_submenu_page( 'front-page.php', 'aioseop-credits' );
+			remove_submenu_page( 'index.php', 'aioseop-about' );
+			remove_submenu_page( 'index.php', 'aioseop-credits' );
 		}
 
 		/**
@@ -97,7 +97,7 @@ if ( ! class_exists( 'aioseop_welcome' ) ) {
 				return;
 			}
 
-			wp_safe_redirect( add_query_arg( array( 'page' => 'aioseop-about' ), admin_url( 'front-page.php' ) ) );
+			wp_safe_redirect( add_query_arg( array( 'page' => 'aioseop-about' ), admin_url( 'index.php' ) ) );
 			exit;
 		}
 
@@ -117,11 +117,11 @@ if ( ! class_exists( 'aioseop_welcome' ) ) {
 
 				<h2 class="nav-tab-wrapper">
 					<a class="nav-tab nav-tab-active" id="aioseop-about"
-					   href="<?php echo esc_url( admin_url( add_query_arg( array( 'page' => 'aioseop-about' ), 'front-page.php' ) ) ); ?>">
+					   href="<?php echo esc_url( admin_url( add_query_arg( array( 'page' => 'aioseop-about' ), 'index.php' ) ) ); ?>">
 						<?php esc_html_e( 'What&#8217;s New', 'all-in-one-seo-pack' ); ?>
 					</a>
 					<a class="nav-tab" id="aioseop-credits"
-					   href="<?php echo esc_url( admin_url( add_query_arg( array( 'page' => 'aioseop-credits' ), 'front-page.php' ) ) ); ?>">
+					   href="<?php echo esc_url( admin_url( add_query_arg( array( 'page' => 'aioseop-credits' ), 'index.php' ) ) ); ?>">
 						<?php esc_html_e( 'Credits', 'all-in-one-seo-pack' ); ?>
 					</a>
 				</h2>

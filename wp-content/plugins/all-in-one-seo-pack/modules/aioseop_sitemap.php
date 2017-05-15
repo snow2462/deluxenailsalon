@@ -1065,15 +1065,15 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Sitemap' ) ) {
 		function get_rewrite_rules() {
 			$sitemap_rules_normal = $sitemap_rules_gzipped = array();
 			$sitemap_rules_normal = array(
-				$this->options["{$this->prefix}filename"] . '.xml'            => "front-page.php?{$this->prefix}path=root",
-				$this->options["{$this->prefix}filename"] . '_(.+)_(\d+).xml' => 'front-page.php?' . $this->prefix . 'path=$matches[1]&' . $this->prefix . 'page=$matches[2]',
-				$this->options["{$this->prefix}filename"] . '_(.+).xml'       => 'front-page.php?' . $this->prefix . 'path=$matches[1]',
+				$this->options["{$this->prefix}filename"] . '.xml'            => "index.php?{$this->prefix}path=root",
+				$this->options["{$this->prefix}filename"] . '_(.+)_(\d+).xml' => 'index.php?' . $this->prefix . 'path=$matches[1]&' . $this->prefix . 'page=$matches[2]',
+				$this->options["{$this->prefix}filename"] . '_(.+).xml'       => 'index.php?' . $this->prefix . 'path=$matches[1]',
 			);
 			if ( $this->options["{$this->prefix}gzipped"] ) {
 				$sitemap_rules_gzipped = array(
-					$this->options["{$this->prefix}filename"] . '.xml.gz'            => "front-page.php?{$this->prefix}gzipped=1&{$this->prefix}path=root.gz",
-					$this->options["{$this->prefix}filename"] . '_(.+)_(\d+).xml.gz' => 'front-page.php?' . $this->prefix . 'path=$matches[1].gz&' . $this->prefix . 'page=$matches[2]',
-					$this->options["{$this->prefix}filename"] . '_(.+).xml.gz'       => 'front-page.php?' . $this->prefix . 'path=$matches[1].gz',
+					$this->options["{$this->prefix}filename"] . '.xml.gz'            => "index.php?{$this->prefix}gzipped=1&{$this->prefix}path=root.gz",
+					$this->options["{$this->prefix}filename"] . '_(.+)_(\d+).xml.gz' => 'index.php?' . $this->prefix . 'path=$matches[1].gz&' . $this->prefix . 'page=$matches[2]',
+					$this->options["{$this->prefix}filename"] . '_(.+).xml.gz'       => 'index.php?' . $this->prefix . 'path=$matches[1].gz',
 				);
 			}
 			$sitemap_rules = $sitemap_rules_gzipped + $sitemap_rules_normal;

@@ -4,7 +4,7 @@
 <?php do_slideshowck(239);?>
 
 	<br>
-    <h3 class="block-title" style="font-size: 20px;text-align: center;"><span>Thank you for choosing Deluxe Nail Salon</span></h3>
+    <h3 class="block-title" style=" padding-top: 30px; font-size: 20px;text-align: center;"><span>Thank you for choosing Deluxe Nail Salon</span></h3>
 	<div class="row" data-fluid=".entry-title" align="center">
 		<div class="col-xs-6" style="display: inline-block">
 			<div id="post-<?php the_ID(); ?>" <?php post_class( 'entry ' . $kale_post_class ); ?>>
@@ -19,14 +19,15 @@
                 <div class="entry-content">
                     <a href="https://www.facebook.com/Deluxe-Nail-Salon-191290404253758/"><img src="<?php echo TEMPLATE_DIRECTORY_URI; ?>/img/facebook.png" width="30" height="30"/></a>
                     <a href="https://twitter.com/deluxenailsalo1"><img src="<?php echo TEMPLATE_DIRECTORY_URI; ?>/img/twitter.png" width="30" height="30"/></a>
+                    <a href="https://www.instagram.com/deluxenailsalon1/"><img src="<?php echo TEMPLATE_DIRECTORY_URI; ?>/img/instagram.png" width="30" height="30"/></a>
                 </div>
 			</div>
 		</div>
 		<div class="col-xs-6" style="display: inline-block">
-			<img src="<?php echo the_post_thumbnail_url();?>" width="600" height="380"/>
+			<img src="<?php echo the_post_thumbnail_url();?>" width="80%" height="40%"/>
 		</div>
 	</div>
-<div style="padding-top: 50px;">
+<div style="padding-top: 60px;">
     <h3 class="block-title" style="font-size: 20px;text-align: center;"><span>Our Motto</span></h3>
     <div class="row" data-fluid=".entry-title" align="center">
         <?php

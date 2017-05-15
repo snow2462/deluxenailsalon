@@ -28,7 +28,7 @@
         </div>
     <div class="art-content-layout-row" style="display: inline-block;">
         <p style="font-size: 20px;">
-            We also offer at home service at double the normal price. Please contact us for more information.
+            We also offer in home service at double the normal price. Please contact us for more information.
         </p>
     </div>
 </div>
