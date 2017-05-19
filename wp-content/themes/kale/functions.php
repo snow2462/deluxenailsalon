@@ -89,12 +89,7 @@ add_action( 'after_setup_theme', 'kale_setup' );
 add_image_size( 'service-thumbnail', 150, 370, true );
 add_image_size( 'services-thumbnail', 300, 200, true );
 add_image_size( 'contact-thumbnail', 456, 342, true );
-function set_viewport() {
-    ?>
-    <meta name="viewport" content="width=device-width, minimal-ui">
-    <?php
-}
-add_action('wp_head', 'set_viewport');
+
 
 /*------------------------------
  Styles and Scripts
