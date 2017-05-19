@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?></span></h2>
-<div class="row" data-fluid=".entry-title" style="padding-left: 20px;">
+<div class="row" data-fluid=".entry-title">
 	<?php if ( is_single( 'pedicure' ) || is_single( 'manicure' ) || is_single( 'massage' ) ) {
 		// check if the repeater field has rows of data
 		if ( have_rows( 'extraservice' ) ):
@@ -36,7 +36,7 @@
 			// no rows found
 		endif;
 	} else if ( is_single( 'nails' ) ){ ?>
-        <div class="row" data-fluid=".entry-title" style="text-align: left">
+
             <div class="col-md-4" style="display: inline-block;">
                 <h2><span style="color: #eab800;"><?php $field = get_field_object( 'solar' );
 						echo $field['label'];
@@ -127,11 +127,10 @@
 					?>
                 </table>
             </div>
-        </div>
+
 	<?php } else if ( is_single( 'kid' ) )
 	{
 	?>
-    <div class="row" data-fluid=".entry-title" style="text-align: left">
         <div class="col-md-4" style="display: inline-block;">
             <h2><span style="color: #eab800;"><?php $field1 = get_field_object( 'kids1' );
 					echo $field1['label']; ?></span></h2>
@@ -176,7 +175,7 @@
 		<?php }
 		else if ( is_single( 'eyelash-extension' ) ) {
 			?>
-            <div class="row" data-fluid=".entry-title" style="text-align: left">
+
                 <div class="col-md-4" style="display: inline-block;">
                     <h2><span style="color: #eab800;"><?php $field = get_field_object( 'eyelash' );
 						    echo $field['label'];
@@ -200,12 +199,11 @@
 					    ?>
                     </table>
                 </div>
-                <div align="center"><img style="border-radius: 25px;"src="<?php echo TEMPLATE_DIRECTORY_URI;?>/img/eye.png"/></div>
-            </div>
+                <div align="center"><img style="border-radius: 25px;"src="<?php echo TEMPLATE_DIRECTORY_URI;?>/img/eye.png" width="50%" height="50%"/></div>
 
 		<?php } else if ( is_single( 'waxing' ) ) {
 			?>
-            <div class="row" data-fluid=".entry-title" style="text-align: left">
+
                 <div class="col-md-4" style="display: inline-block;">
                     <h2><span style="color: #eab800;"><?php $field = get_field_object( 'facial' );
 							echo $field['label'];

@@ -103,7 +103,7 @@ function kale_scripts() {
     wp_register_style('bootstrap-select', get_template_directory_uri() . '/assets/css/bootstrap-select.min.css' );
     wp_register_style('font-awesome', get_template_directory_uri().'/assets/css/font-awesome.min.css' );
     wp_register_style('owl-carousel', get_template_directory_uri().'/assets/css/owl.carousel.css' );
-	if(is_page("service") || is_single('nails')){
+	if(is_page_template("Template Service") || is_single('nails')){
 		wp_register_style('frame', get_template_directory_uri().'/assets/css/Frame.css');
 	}
     //fonts

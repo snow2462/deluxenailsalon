@@ -4,7 +4,7 @@ Theme URI: https://www.lyrathemes.com/kale/
 Author: LyraThemes
 Author URI: https://www.lyrathemes.com/
 Description: Kale is a charming and elegant, aesthetically minimal and uncluttered food blog theme that can also be used for a variety of purposes. Whether you want to share recipes or fashion tips, run a lifestyle, parenting or cooking blog, Kale is a perfect theme choice. Simple but feature-filled food blog or cooking blog WordPress theme with WooCommerce integration. Beautifully designed and extremely clean, Kale is super easy to set up and is optimized for search engines. Kale comes with a special front page; with featured posts and a large highlight post, the option to show a banner or a posts slider in the header, and RTL support. It also comes with built-in menus for displaying your social media presence, multiple blog feed layouts, text and image logo options, sidebar size options (compact and default), banner/slider color overlay options, and much more! Kale is backed by world class, one-on-one support, and a super active team of developers and designers ready to help! 
-Version: 1.2.1
+Version: 1.2.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: kale
@@ -52,7 +52,7 @@ h6{font-size:12px;}
 .block-title span:after{left:auto;right:0}
         
 /* --- Fonts --- */
-.logo .header-logo-text{line-height:60px;font-size:60px;font-weight:200;font-family: 'Raleway', sans-serif;}
+.logo .header-logo-text{line-height:60px;font-size:60px;font-weight:200;font-family: 'Raleway', sans-serif;text-transform:uppercase;}
 .tagline{font-family: 'Caveat', cursive; font-size:18px;}
 
 .form-label{text-transform:uppercase;font-weight:400;font-family: 'Montserrat', sans-serif;}
@@ -303,13 +303,14 @@ img.aligncenter { max-width:100%; height:auto;}
 h1.entry-title{margin-bottom:25px}
 
 
-.entry-summary{/*margin-right:30px;*/margin-bottom:15px;line-height:22px; text-align:justify; font-size: 16px;}
+.entry-summary{/*margin-right:30px;*/margin-bottom:15px;line-height:22px; text-align:justify}
 
 .entry-meta{font-style:italic;font-size:11px;display:inline-block;color:#000}
 .entry-meta a{color:inherit}
 .entry-meta >div{display:inline}
 .single .entry-meta >div{display:block}
 .single .entry-meta span{font-weight:bold;letter-spacing:0.6px}
+.single .entry-meta span.fn{font-weight:normal;}
 .entry-meta .sep{display:inline;margin:0 5px}
 
 .entry-header{margin:0 0 20px}
@@ -487,6 +488,7 @@ padding: 10px 28px; font-size: 11px; font-weight: 300; text-transform: uppercase
 .footer-widgets .widget.widget_text .textwidget{color:#000;font-weight:400;}
 .footer-widgets ul >li:first-child{padding-top:0px}
 .footer-widgets ul >li >a{text-transform:none;font-size:13px}
+.footer-widgets img { max-width: 100%; height: auto; }
 
 /* --- Custom Menu - "Social" --- */
 .widget .menu-social-container ul { display: inline-block; overflow: hidden; margin: 0; padding: 0; }
@@ -536,7 +538,7 @@ padding: 10px 28px; font-size: 11px; font-weight: 300; text-transform: uppercase
 /* FOOTER
 ------------------------------------------------------------------------*/
 
-.footer{padding:0}
+.footer{padding:30px 0 20px}
 
 .footer-copyright {text-align:center; }
 
@@ -553,8 +555,8 @@ padding: 10px 28px; font-size: 11px; font-weight: 300; text-transform: uppercase
 /* VIDEO EMBED
 ------------------------------------------------------------------------*/
 
-.iframe-video {position: relative; padding-bottom: 57%; height: 0; overflow: hidden;}
-.iframe-video iframe {position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; }
+.iframe-video, .embed-vimeo, .embed-youtube {position: relative; padding-bottom: 57%; height: 0; overflow: hidden;}
+.iframe-video iframe, .embed-vimeo iframe, .embed-youtube iframe{position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; }
 
 
 /* WOOCOMMERCE 
@@ -684,6 +686,8 @@ padding: 10px 28px; font-size: 11px; font-weight: 300; text-transform: uppercase
 	.frontpage-banner .caption h2,
     .frontpage-slider .caption h2{font-size:22px;padding-bottom:10px;margin-bottom:15px}
     
+	.frontpage-large-post .entry-summary { -moz-column-count: 1; -webkit-column-count: 1; column-count: 1; }
+	
 }
 @media (max-width:480px){
 	.frontpage-banner .caption,
