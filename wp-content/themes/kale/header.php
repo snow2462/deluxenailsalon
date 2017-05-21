@@ -16,16 +16,17 @@
     <meta charset="<?php bloginfo('charset'); ?>"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
     <style type="text/css">
         #container2 {
             overflow-x: hidden;
             width: 100%;
             position: relative;
-            height: 53vh;
+            height: 47vh;
         }
 
         #main {
+            min-height: 100%;
             top: 0;
         }
     </style>
@@ -76,8 +77,8 @@
                         $kale_text_logo = kale_get_option('kale_text_logo');
                         if ($kale_text_logo == '') $kale_text_logo = get_bloginfo('name');
                         ?>
-                        <div class="header-logo-text"><a
-                                    href="<?php home_url(); ?>"><?php echo esc_html($kale_text_logo) ?></a></div>
+                        <div class="header-logo-text lala"><a
+                                    href="<?php echo home_url(); ?>"><?php echo esc_html($kale_text_logo) ?></a></div>
                     <?php } ?>
                 </div>
                 <?php if (display_header_text()) { ?>

@@ -50,9 +50,24 @@
 </div>
 <br>
 <hr>
-<div align="center">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1SN-Kgz9fNwCG3kNU9ZqBB8xPpWI&z=13&amp;" width="100%"
-            height="480"></iframe>
+<style>
+    .iframe-rwd  {
+        position: relative;
+        padding-bottom: 65.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+    .iframe-rwd iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<div align="iframe-rwd">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1SN-Kgz9fNwCG3kNU9ZqBB8xPpWI" width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 </div>
 
 <?php get_footer(); ?>

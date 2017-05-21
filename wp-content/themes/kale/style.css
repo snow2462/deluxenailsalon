@@ -20,16 +20,16 @@ Tags: one-column, two-columns, three-columns, right-sidebar, grid-layout, flexib
 /* BASE
 ------------------------------------------------------------------------*/
 
-body{font-family: 'Lato', sans-serif;color:#545454;font-size:13px}
-body.custom-background .main-wrapper{margin:0 auto;background-color:#ffffff;box-shadow:0 0 50px rgba(0,0,0,0.06)}
+body{font-family: 'Lato', sans-serif;color:#545454;font-size:13px; padding: 25px;}
+body.custom-background .main-wrapper{margin:0 auto;padding: 25px; background-color:#ffffff;box-shadow:0 0 50px rgba(0,0,0,0.06)}
 
 img.pull-left{margin-right:10px;margin-bottom:5px}
 img.pull-right{margin-left:10px;margin-bottom:5px}
 hr{border-top-color:#000;margin:35px 0}
-a, a:hover, a:visited, a:active, a:focus{color:#000000;}
-.single .entry-content a{color:#000000; text-decoration:underline;}
+a, a:hover, a:visited, a:active, a:focus{color:#000000; text-decoration:none;}
+.single .entry-content a{color:#000000; text-decoration:none;}
 .single .entry-content a:hover, .entry-content a:active, .entry-content a:focus{color:#000000; text-decoration:none;}
-.page .entry-content a{color:#000000; text-decoration:underline;}
+.page .entry-content a{color:#000000; text-decoration:none;}
 .page .entry-content a:hover, .entry-content a:active, .entry-content a:focus{color:#000000; text-decoration:none;}
 
 

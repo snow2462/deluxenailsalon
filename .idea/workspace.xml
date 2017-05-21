@@ -2,14 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858f0a3a-096b-4788-bebc-d010bebe0aef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium-1024x682.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium-1200x550.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium-150x150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium-300x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium-380x200.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium-760x400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium-768x512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/iStock_000007020311Medium.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/img/auto-terms-of-service-and-privacy-policy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/default_thumb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/includes/widget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ar.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ar.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-fa_IR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-fa_IR.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-pl_PL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-pl_PL.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ru_RU.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/languages/recent-posts-widget-with-thumbnails.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/public.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/recent-posts-widget-with-thumbnails/uninstall.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/includes/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/includes/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/includes/hooks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/includes/settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/Help translate Secondary Title.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ar.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/bs_BA.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ca.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/cs_CZ.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/cy.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/da_DK.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/el.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/es_CL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/es_ES.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/es_PE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/et.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/eu.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/fa_IR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/fi.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/fr_FR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/gl_ES.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/he_IL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/hr.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/hu_HU.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/id_ID.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/is_IS.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/it_IT.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ja.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/km.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ko_KR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/lt_LT.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/my_MM.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/nb_NO.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/nl_NL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/nn_NO.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/pl_PL.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/pt_BR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/pt_PT.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ro_RO.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ru_RU.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/secondary_title.pot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/sk_SK.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/sr_RS.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/sv_SE.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ta_LK.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/th.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/tr_TR.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/ug.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/uk.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/vi.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/zh_CN.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/languages/zh_TW.mo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/screenshot-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/screenshot-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/screenshot-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/scripts/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/secondary-title.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/styles/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/secondary-title/styles/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/121-133x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/121-146x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/121-146x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/Untitled-2-133x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/Untitled-2-146x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/Untitled-2-146x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/Untitled-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/a-133x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/a-146x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/a-146x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/b-133x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/b-146x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/b-146x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/e-133x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/e-146x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/e-146x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q-133x300.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q-146x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q-146x200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-en.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-en.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-it_IT.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/Deluxe-Nail-Salon-5242-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/Deluxe-Nail-Salon-5242-150x150.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/Deluxe-Nail-Salon-5242-150x370.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/Deluxe-Nail-Salon-5242-150x370.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/Deluxe-Nail-Salon-5242-247x300.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/Deluxe-Nail-Salon-5242-247x300.jpg" />
@@ -57,7 +167,58 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/IMG_7624-760x400.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/IMG_7624-760x400.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/IMG_7624-768x454.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/IMG_7624-768x454.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/IMG_7624.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/IMG_7624.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-150x150.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-150x150.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-150x370.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-150x370.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-300x188.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-300x188.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-300x200.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-300x200.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-380x200.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-380x200.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-456x342.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-456x342.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-760x400.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-760x400.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-768x480.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf-768x480.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf.jpg" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/05/q1e58xhf.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/auto-terms-of-service-privacy-policy.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/auto-terms-of-service-privacy-policy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/css/admin/common.css" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/css/admin/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/css/admin/debug.css" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/css/admin/debug.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/css/admin/dialog-boxes.css" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/css/admin/dialog-boxes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/_vars.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/_vars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/admin/_license-key-resend.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/admin/_license-key-resend.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/admin/common.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/admin/common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/admin/debug.scss" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/assets/scss/admin/debug.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/config.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-freemius-abstract.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-freemius-abstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-freemius.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-freemius.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-api.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-logger.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-logger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-plugin-updater.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-plugin-updater.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-security.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/class-fs-security.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/entities/class-fs-plugin-license.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/entities/class-fs-plugin-license.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/fs-core-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/fs-core-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/fs-essential-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/fs-essential-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/fs-plugin-info-dialog.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/fs-plugin-info-dialog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/i18n.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/i18n.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/managers/class-fs-admin-menu-manager.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/managers/class-fs-admin-menu-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/sdk/Freemius.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/sdk/Freemius.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/supplements/fs-essential-functions-1.1.7.1.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/includes/supplements/fs-essential-functions-1.1.7.1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-en.po" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-en.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-it_IT.po" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius-it_IT.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/languages/freemius.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/start.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/account.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/account.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/add-ons.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/add-ons.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/checkout.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/checkout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/connect.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/debug.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/debug/logger.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/debug/logger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/email.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/license-activation.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/license-activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/optout.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/optout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/resend-key.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/resend-key.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/trial-start.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/forms/trial-start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/plugin-icon.php" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/freemius/templates/plugin-icon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/auto-terms-of-service-and-privacy-policy/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/front-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/front-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/kale/single-services.php" afterPath="$PROJECT_DIR$/wp-content/themes/kale/single-services.php" />
@@ -79,40 +240,73 @@
       <file leaf-file-name="template-service.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-service.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="630">
+              <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-services.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="single-services.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/single-services.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="195" column="30" lean-forward="true" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
               <folding>
-                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-about.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template-about.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="395">
+              <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
-                <marker date="1495203696147" expanded="false" signature="1877:1881" ph="..." />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <marker date="1495366050334" expanded="true" signature="1877:1881" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Frame.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/assets/css/Frame.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1072" column="1" lean-forward="false" selection-start-line="1072" selection-start-column="1" selection-end-line="1072" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -124,7 +318,17 @@
       <find>overflow</find>
       <find>.body</find>
       <find>frame</find>
+      <find>di</find>
+      <find>&lt;div class=&quot;col-md-4</find>
+      <find>.entry-con</find>
+      <find>add_im</find>
+      <find>ki</find>
+      <find>&lt;td width=&quot;75%&quot;&gt;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&lt;div class=&quot;col-sm-6 col-md-4</replace>
+      <replace>&lt;td&gt;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,16 +343,19 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/kale/template-privacy.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/template-coupon.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kale/footer.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/detail.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/assets/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/assets/css/cols.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-contact.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-about.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kale/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-service.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-service.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/front-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-contact.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/kale/single-services.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kale/template-about.php" />
       </list>
     </option>
   </component>
@@ -180,7 +387,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,6 +452,88 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deluxenailsalon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deluxenailsalon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deluxenailsalon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deluxenailsalon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deluxenailsalon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deluxenailsalon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,8 +629,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,9 +637,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../victorire" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\deluxenailsalon\wp-content\themes\kale\assets\maps" />
+      <recent name="E:\xampp\htdocs\deluxenailsalon\wp-content\themes\kale\assets\kmz" />
       <recent name="D:\xampp\htdocs\DeluxeNail\wp-content\themes\kale\img" />
       <recent name="E:\xampp\htdocs\deluxenailsalon\wp-content\themes\kale\img" />
     </key>
@@ -766,12 +1058,17 @@
       <workItem from="1495195847671" duration="4151000" />
       <workItem from="1495203022854" duration="3070000" />
       <workItem from="1495212729680" duration="3000" />
-      <workItem from="1495213013102" duration="489000" />
+      <workItem from="1495213013102" duration="4201000" />
+      <workItem from="1495260609688" duration="5609000" />
+      <workItem from="1495291947299" duration="3784000" />
+      <workItem from="1495305825455" duration="18679000" />
+      <workItem from="1495351653105" duration="653000" />
+      <workItem from="1495363667829" duration="2817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26400000" />
+    <option name="totallyTimeSpent" value="61654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -791,7 +1088,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -817,31 +1114,11 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="65" column="61" lean-forward="false" selection-start-line="65" selection-start-column="61" selection-end-line="65" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-privacy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-service.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -870,9 +1147,10 @@
         <state relative-caret-position="3654">
           <caret line="174" column="14" lean-forward="false" selection-start-line="174" selection-start-column="14" selection-end-line="174" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -882,7 +1160,12 @@
         <state relative-caret-position="315">
           <caret line="15" column="31" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <marker date="1495203696147" expanded="false" signature="1877:1881" ph="..." />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1495366050334" expanded="true" signature="1877:1881" ph="..." />
           </folding>
         </state>
       </provider>
@@ -916,9 +1199,10 @@
         <state relative-caret-position="273">
           <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,7 +1235,12 @@
         <state relative-caret-position="252">
           <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
-            <marker date="1495203696147" expanded="false" signature="1877:1881" ph="..." />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1495366050334" expanded="true" signature="1877:1881" ph="..." />
           </folding>
         </state>
       </provider>
@@ -969,9 +1258,10 @@
         <state relative-caret-position="273">
           <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1004,7 +1294,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1495203696147" expanded="false" signature="1877:1881" ph="..." />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1495366050334" expanded="true" signature="1877:1881" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1014,9 +1309,10 @@
         <state relative-caret-position="273">
           <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1036,24 +1332,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/screenshot.png" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/page.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/single.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/sample/images/full1.jpg" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/sample/images/full2.jpg" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/sample/images/full3.jpg" />
@@ -1061,14 +1342,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/sample/images/slide2.jpg" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/sample/images/thumb1.jpg" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/sample/images/thumb4.jpg" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-privacy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1087,84 +1360,123 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/sbListNews.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/detail.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/assets/css/Frame.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-about.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <marker date="1495203696147" expanded="false" signature="1877:1881" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/assets/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="6209" column="9" lean-forward="false" selection-start-line="6209" selection-start-column="8" selection-end-line="6209" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/tables.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="158" lean-forward="false" selection-start-line="12" selection-start-column="158" selection-end-line="12" selection-end-column="158" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/assets/css/cols.css" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="77" lean-forward="false" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="104" column="54" lean-forward="false" selection-start-line="104" selection-start-column="54" selection-end-line="104" selection-end-column="54" />
+        <state relative-caret-position="1953">
+          <caret line="97" column="9" lean-forward="false" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding>
-            <marker date="1495205571843" expanded="true" signature="10888:11301" ph="..." />
-            <marker date="1495205571843" expanded="true" signature="11047:11291" ph="..." />
-            <marker date="1495205571843" expanded="true" signature="11136:11276" ph="..." />
+            <marker date="1495336703958" expanded="true" signature="10736:11149" ph="..." />
+            <marker date="1495336703958" expanded="true" signature="10895:11139" ph="..." />
+            <marker date="1495336703958" expanded="true" signature="10984:11124" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="630">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/parts/frontpage-featured.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/assets/maps/maps.jpg" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="84" lean-forward="true" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/assets/css/Frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1072" column="1" lean-forward="false" selection-start-line="1072" selection-start-column="1" selection-end-line="1072" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/single-services.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="195" column="30" lean-forward="true" selection-start-line="195" selection-start-column="30" selection-end-line="195" selection-end-column="30" />
+        <state relative-caret-position="210">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding>
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kale/template-about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="42" column="31" lean-forward="false" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1495366050334" expanded="true" signature="1877:1881" ph="..." />
           </folding>
         </state>
       </provider>

@@ -40,8 +40,7 @@
             while (have_rows('motto')) : the_row();
                 ?>
                 <div class="col-md-4">
-                    <div id="post-<?php the_ID(); ?>" <?php post_class('entry ' . $kale_post_class); ?>>
-                        <table border="0" style="text-align: center;">
+                        <table style="text-align: center; max-width: 70%; ">
                             <tr>
                                 <td>
                                     <img src="<?php echo home_url('/') . 'image.php?image=' . get_sub_field('image') . '&width=128&height=128'; ?>"/>
@@ -52,11 +51,10 @@
                                     <strong><?php echo the_sub_field('title'); ?></strong></td>
                             </tr>
                             <tr>
-                                <td style="font-size: 15px;"><strong><?php echo the_sub_field('description') ?></strong>
+                                <td style="font-size: 16px;"><strong><?php echo the_sub_field('description') ?></strong>
                                 </td>
                             </tr>
                         </table>
-                    </div>
                 </div>
             <?php endwhile; endif; ?>
     </div>
