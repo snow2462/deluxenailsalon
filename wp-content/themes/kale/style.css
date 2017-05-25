@@ -20,7 +20,9 @@ Tags: one-column, two-columns, three-columns, right-sidebar, grid-layout, flexib
 /* BASE
 ------------------------------------------------------------------------*/
 
-body{font-family: 'Lato', sans-serif;color:#545454;font-size:13px; padding: 25px;}
+body{font-family: 'Lato', sans-serif;color:#545454;font-size:16px; padding: 25px;
+
+}
 body.custom-background .main-wrapper{margin:0 auto;padding: 25px; background-color:#ffffff;box-shadow:0 0 50px rgba(0,0,0,0.06)}
 
 img.pull-left{margin-right:10px;margin-bottom:5px}
@@ -303,7 +305,7 @@ img.aligncenter { max-width:100%; height:auto;}
 h1.entry-title{margin-bottom:25px}
 
 
-.entry-summary{/*margin-right:30px;*/margin-bottom:15px;line-height:22px; text-align:justify}
+.entry-summary{/*margin-right:30px;*/margin-bottom:15px;line-height:22px; text-align:justify;}
 
 .entry-meta{font-style:italic;font-size:11px;display:inline-block;color:#000}
 .entry-meta a{color:inherit}

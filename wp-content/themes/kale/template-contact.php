@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 
-<div class="row" data-fluid=".entry-title" align="center">
+<div class="row" data-fluid=".entry-title" align="center" style="font-size: 16px;">
     <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
         'post_type' => 'contacus',

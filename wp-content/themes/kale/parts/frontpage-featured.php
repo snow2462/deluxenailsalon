@@ -15,7 +15,7 @@ if($kale_frontpage_featured_posts_show == 1) {
     $kale_frontpage_featured_posts_post_3 = kale_get_option('kale_frontpage_featured_posts_post_3');
     $kale_entry = 'small'; ?>
     <!-- Frontpage Featured Posts -->
-    <div class="frontpage-featured-posts">
+    <div class="frontpage-featured-posts" style="font-size: 16px;">
         <h2 class="block-title"><span>What we offer</span></h2>
         <div class="row" data-fluid=".entry-title" align="center">
 	<?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;

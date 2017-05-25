@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?></span></h2>
-<div class="row" data-fluid=".entry-title">
+<div class="row" data-fluid=".entry-title" style="font-size: 16px;">
 	<?php if ( is_single( 'pedicure' ) || is_single( 'manicure' ) || is_single( 'massage' ) || is_single( 'facial' )) {
 		// check if the repeater field has rows of data
 		if ( have_rows( 'extraservice' ) ):
