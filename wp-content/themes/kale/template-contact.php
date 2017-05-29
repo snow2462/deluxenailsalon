@@ -1,7 +1,7 @@
 <?php /* Template Name: Template Contact */ ?>
 <?php get_header(); ?>
 
-
+<h2 class="block-title" style="text-align: center;"><span><?php the_title(); ?></span></h2>
 <div class="row" data-fluid=".entry-title" align="center" style="font-size: 16px;">
     <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(

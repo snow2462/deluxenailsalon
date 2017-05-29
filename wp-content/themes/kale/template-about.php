@@ -1,13 +1,12 @@
 <?php /* Template Name: Template About */ ?>
 <?php get_header(); ?>
-<h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?></span></h2>
+<h2 class="block-title" style="text-align: center;"><span><?php the_title(); ?></span></h2>
 <?php do_slideshowck(239); ?>
 
 <br>
-<h3 class="block-title" style=" padding-top: 30px; font-size: 20px;text-align: center;"><span>Thank you for choosing Deluxe Nail Salon</span>
-</h3>
+<h3 class="block-title" style=" padding-top: 30px; text-align: center;"><span>Thank you for choosing Deluxe Nail Salon</span></h3>
 <div class="row" data-fluid=".entry-title" align="center">
-    <div class="col-sm-6" style="display: inline-block">
+    <div class="col-sm-6">
         <div id="post-<?php the_ID(); ?>" <?php post_class('entry ' . $kale_post_class); ?>>
             <div class="entry-content" style=" font-size: 20px;">
                 <?php if (have_posts()) : while (have_posts()) : the_post();
@@ -28,7 +27,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-6" style="display: inline-block">
+    <div class="col-sm-6">
         <img src="<?php echo the_post_thumbnail_url(); ?>" width="80%" height="40%"/>
     </div>
 </div>

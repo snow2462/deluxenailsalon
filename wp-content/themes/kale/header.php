@@ -26,9 +26,16 @@
         }
 
         #main {
+            min-width: 90%;
             min-height: 100%;
             top: 0;
         }
+        .container{
+            min-width: 90%;
+            max-width: 90%;
+
+        }
+
     </style>
     <?php if (is_singular() && pings_open(get_queried_object())) : ?>
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">

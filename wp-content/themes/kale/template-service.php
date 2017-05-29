@@ -1,6 +1,6 @@
 <?php /* Template Name: Template Service */ ?>
 <?php get_header(); ?>
-<h2 class="block-title" style="font-size: 30px;text-align: center;"><span><?php the_title(); ?></span></h2>
+<h2 class="block-title" style="text-align: center;"><span><?php the_title(); ?></span></h2>
 <div class="entry-summary"><p style="text-align: center; font-size: 16px;">We also offer in home services at double the normal price. Please contact us for more information.</p></div>
 <div class="row" data-fluid=".entry-title" align="center">
     <?php $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
