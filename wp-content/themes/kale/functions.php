@@ -94,7 +94,11 @@ add_image_size( 'contact-thumbnail', 456, 342, true );
 /*------------------------------
  Styles and Scripts
  ------------------------------*/
-
+function wpb_adding_scripts() {
+    wp_register_script('fix_height', get_template_directory_uri() . 'assets/js/fixHeight.js', array('jquery'),'1.1', true);
+    wp_enqueue_script('fix_height');
+}
+add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts', 999 );
 function kale_scripts() {
     
     /* Styles */
