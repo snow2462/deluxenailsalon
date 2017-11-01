@@ -33,7 +33,7 @@ $(document).ready(function () {
         });
         setInterval(function(){
             $('#message').html('');
-        }, 3000);
+        }, 5000);
     }
 
     $(document).on('click', '#submit', function () {

@@ -1,9 +1,8 @@
 <?php
 include("api.php");
-mysqli_select_db($con, "test");
-$result = mysqli_query($con, "SELECT * FROM list");
-$maxID = mysqli_query($con, "SELECT MAX(itemId) AS MAX FROM `list`");
-$row = mysqli_fetch_array($maxID);
+$result = $con->query("SELECT * FROM list");
+$maxID = $con->query("SELECT MAX(itemId) AS MAX FROM `list`");
+$row = $maxID->fetch_array();
 $largestNumber = $row['MAX'];
 $largestNumber++;
 
@@ -17,7 +16,7 @@ echo "<table border='1' id='user_data' >
 <td align=center><b>Delete</b></td>";
 
 
-while ($data = mysqli_fetch_row($result)) {
+while ($data = $result->fetch_row()) {
     echo "<tr>";
     echo "<td contenteditable class=\"update\" data-id=$data[0] data-column='itemId' align=center>$data[0]</td>";
     echo "<td contenteditable class=\"update\" data-id=$data[0] data-column='name' align=center>$data[1]</td>";
@@ -39,3 +38,4 @@ echo "
 echo "</table>";
 
 ?>
+
