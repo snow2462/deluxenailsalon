@@ -95,7 +95,7 @@ add_image_size( 'contact-thumbnail', 456, 342, true );
  Styles and Scripts
  ------------------------------*/
 function wpb_adding_scripts() {
-    wp_register_script('fix_height', get_template_directory_uri() . 'assets/js/fixHeight.js', array('jquery'),'1.1', true);
+    wp_register_script('fix_height', get_template_directory_uri() . '/assets/js/fixHeight.js', array('jquery'),'1.1', true);
     wp_enqueue_script('fix_height');
 }
 add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts', 999 );
@@ -104,6 +104,11 @@ function kale_scripts() {
     /* Styles */
     
     wp_register_style('bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
+    if(is_singular('news')) {
+        wp_register_style('masonry', get_template_directory_uri() . '/css/masonry.pkgd.min.js');
+        wp_enqueue_script('script', get_template_directory_uri().'/js/script.js', array('jquery'), '', true );
+
+    }
     wp_register_style('bootstrap-select', get_template_directory_uri() . '/assets/css/bootstrap-select.min.css' );
     wp_register_style('font-awesome', get_template_directory_uri().'/assets/css/font-awesome.min.css' );
     wp_register_style('owl-carousel', get_template_directory_uri().'/assets/css/owl.carousel.css' );
@@ -379,4 +384,31 @@ function kale_example_sidebar(){
     the_widget( 'WP_Widget_Categories', 'title=' . __('Categories', 'kale'), 'before_title=<h3 class="widget-title"><span>&after_title=</span></h3>&before_widget=<div class="default-widget widget">&after_widget=</div>');
     echo '</div>';
 }
+function filter_news()
+{
+    $totalpost = $_POST['totalpost'];
+    $offset = $_POST['offset'];
+
+    $argsNews = array(
+        'post_type' => 'services',
+        'offset' => $offset,
+        'orderby' => array(
+            'menu_order' => 'ASC'
+        ),
+        'posts_per_page' => 4,
+        'post_type' => 'post',
+        'post_status' => 'publish'
+    );
+    $the_query = new WP_Query($argsNews);
+    if ($the_query->have_posts()) {
+        while ($the_query->have_posts()) {
+            $the_query->the_post();
+            get_template_part('template-filter-news');
+        }
+        wp_reset_postdata();
+    }
+    echo '@@--@@' . ($offset + 4);
+}
 ?>
+
+
