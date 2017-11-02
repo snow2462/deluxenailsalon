@@ -1,0 +1,20 @@
+li {
+    list-style-type: none;
+}
+input
+{
+    width: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#message
+{
+    color: green;
+    background-color: lightgreen;
+    text-align: center;
+}
+#register
+{
+    margin: -48px 0 0 60px;
+}

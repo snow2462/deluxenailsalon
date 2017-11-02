@@ -63,18 +63,20 @@ $(document).ready(function () {
                     $("#price").val('');
                     $("#availability").val('');
                     $('#responsecontainer').html('');
-                    $('#error').html(data);
+                    $('#message').html(data);
                     displayData();
                 }
-
             });
+            setInterval(function(){
+                $('#message').html('');
+            }, 5000);
         }
         else {
             alert("All fields are required");
         }
     });
 
-    $(document).on('click', '#delete', function () {
+    $(document).delegate('#delete', 'click', function () {
         var itemId = $(this).attr("data-id");
         if (confirm("Are you sure you want to delete this?")) {
             $.ajax({
@@ -87,9 +89,13 @@ $(document).ready(function () {
                 dataType: "text",
                 success: function (data) {
                     $('#responsecontainer').html('');
+                    $('#message').html(data);
                     displayData();
                 }
             });
+            setInterval(function(){
+                $('#message').html('');
+            }, 5000);
         }
     });
 
@@ -99,4 +105,11 @@ $(document).ready(function () {
         var value = $(this).text();
         updateData(id, column_name, value);
     });
+
+    // $(document).on('click','#register',function(){
+    //    $.ajax({
+    //       url: 'register.php',
+    //
+    //    });
+    // });
 });

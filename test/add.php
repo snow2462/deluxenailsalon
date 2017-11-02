@@ -3,7 +3,7 @@ include("api.php");
 
 if (isset($_POST['done'])) {
     $id = $con->escape_string($_POST['id']);
-    $name = $con->real_escape_string($_POST['itemName']);
+    $name = $con->escape_string($_POST['itemName']);
     $description = $con->escape_string($_POST['description']);
     $price = $con->escape_string($_POST['price']);
     $availability = $con->escape_string($_POST['availability']);
@@ -15,6 +15,7 @@ if (isset($_POST['done'])) {
         $con->query("INSERT IGNORE INTO list (`itemId`, `itemName`, `description`, `price`, `availability`)
                             VALUES('{$id}','{$name}', '{$description}', '{$price}', '{$availability}')");
     }
+    echo 'Data Inserted';
 }
 
 

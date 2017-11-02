@@ -5,6 +5,6 @@ $itemId = $_POST['id'];
 
 $query = "DELETE FROM list WHERE itemId = ".$itemId;
 
-if (mysqli_query($con, $query)) {
+if ($con->query($query)) {
     echo 'Data Deleted';
 }
