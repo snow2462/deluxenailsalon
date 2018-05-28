@@ -197,9 +197,18 @@ class SlideshowckListTableGeneral extends SlideshowckListTable {
 	function get_bulk_actions() {
 		$actions = array(
 			'delete' => __('Delete'),
+			'copy' => __('Copy'),
 			'edit' => __('Edit')
 		);
 		return $actions;
+	}
+
+	function select_first_notice() {
+	  ?>
+	  <div class="update-nag notice"><div style="clear:both;"></div>
+		  <p><?php _e( 'You must select an item for this action.', 'slideshow-ck' ); ?></p>
+	  </div>
+	  <?php
 	}
 
 	/**	 * ***********************************************************************
@@ -211,21 +220,60 @@ class SlideshowckListTableGeneral extends SlideshowckListTable {
 	 * ************************************************************************ */
 	function process_bulk_action() {
 
+		if (! current_user_can('manage_options')) {
+			wp_die('You are not allowed to edit !');
+		}
 		//Detect when a bulk action is being triggered...
 		if ('delete' === $this->current_action()) {
 			//wp_die('Items deleted (or they would be if we had items to delete)!');
-			if (current_user_can('edit_plugins', 'delete_page')) {
-//				 var_dump((int)$_GET['slideshowck'][0]);die;
+			if (! isset($_GET['slideshowck'][0]) || (int) $_GET['slideshowck'][0] == 0) {
+				$this->select_first_notice();
+				return;
+			}
+			// if (current_user_can('edit_plugins', 'delete_page')) {
 				wp_delete_post( (int)$_GET['slideshowck'][0] );
-			} else {
-				wp_die('You are not allowed to delete !');
+			// } else {
+				// wp_die('You are not allowed to delete !');
+			// }
+		} else if ('copy' === $this->current_action()) {
+			// if no slideshow selected
+			if (! isset($_GET['slideshowck'][0]) || (int) $_GET['slideshowck'][0] == 0) {
+				$this->select_first_notice();
+				return;
+			}
+			$post_id = (int)$_GET['slideshowck'][0];
+			if ($post_id) {
+				$post = get_post($post_id);
+				$slideshowckparams = get_post_meta($post_id, 'slideshow-ck-params', TRUE);
+				$slideshowckslides = get_post_meta($post_id, 'slideshow-ck-slides', TRUE);
+
+				$ck_post = array(
+					'ID' => 0,
+					'post_title' => sanitize_text_field($post->post_title . ' (copy)'),
+					'post_content' => '',
+					'post_type' => 'slideshowck',
+					'post_status' => 'publish',
+					'comment_status' => 'closed',
+					'ping_status' => 'closed'
+				);
+
+				// save the post into the database
+				$ck_post_id = wp_insert_post($ck_post);
+
+				// Update the meta field for the slideshow settings
+				update_post_meta($ck_post_id, 'slideshow-ck-params', $slideshowckparams);
+				update_post_meta($ck_post_id, 'slideshow-ck-slides', $slideshowckslides);
+
+				// TODO : ajouter notice en haut de page
+				wp_redirect(home_url() . '/wp-admin/admin.php?page=slideshowck_edit&action=updated&id=' . (int) $ck_post_id);
+				exit;
 			}
 		} else if ('edit' === $this->current_action()) {
-			if (current_user_can('edit_plugins', 'delete_page')) {
+			// if (current_user_can('edit_plugins', 'delete_page')) {
 				wp_redirect( home_url() . '/wp-admin/admin.php?page=slideshowck_edit&id=' . (int) $_GET['slideshowck'][0] );
-			} else {
-				wp_die('You are not allowed to delete !');
-			}
+			// } else {
+				// wp_die('You are not allowed to delete !');
+			// }
 		}
 	}
 

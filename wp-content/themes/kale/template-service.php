@@ -18,7 +18,7 @@
                     <div class="entry-thumb">
                         <?php if(has_post_thumbnail()) { ?>
                             <a href="<?php the_permalink();?>">
-                                <img src="<?php echo get_the_post_thumbnail_url();?>" style="width: 270px; height: 142px; " alt="<?php the_title();?>"/>
+                                <img src="/image.php?url=<?php echo get_the_post_thumbnail_url();?>&width=270h&height=142&cropratio=135:71" alt="<?php the_title();?>"/>
                             </a>
                         <?php } else{
                             //nothing

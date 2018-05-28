@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Slideshow CK\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2017-03-02 21:21+0100\n"
+"POT-Creation-Date: 2017-08-29 12:45+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Cédric KEIFLIN <ced1870@gmail.com>\n"
 "Language-Team: Plugins CK\n"
@@ -20,22 +20,23 @@ msgstr ""
 "_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
 "__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 1.8.12\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ../slideshow-ck-pro-addon\n"
 
 #: ../slideshow-ck-pro-addon/class-slideshow-ck-pro-addon.php:16
-#: includes/slideshowck_edit.php:121
+#: includes/layout.edit.php:111 includes/slideshowck_edit.php:121
 msgid "Autoload from a folder"
 msgstr "Chargement automatique d'un dossier"
 
 #: ../slideshow-ck-pro-addon/class-slideshow-ck-pro-addon.php:19
-#: includes/slideshowck_edit.php:138 slideshow-ck.php:395
+#: includes/class.fields.php:185 includes/layout.edit.php:128
+#: includes/slideshowck_edit.php:138 slideshow-ck.php:413
 msgid "Select"
 msgstr "Sélectionner"
 
 #: ../slideshow-ck-pro-addon/class-slideshow-ck-pro-addon.php:20
-#: includes/slideshowck_edit.php:140
+#: includes/layout.edit.php:130 includes/slideshowck_edit.php:140
 msgid ""
 "Select the folder in the interface or write your own path. Example : wp-"
 "content/images"
@@ -43,96 +44,30 @@ msgstr ""
 "Sélectionnez le dossier dans l'interface ou écrivez votre propre chemin. "
 "Exemple : wp-content/images"
 
-#: cklibrary/class-ck-list-table.php:183
-msgid "No items found."
-msgstr "Aucun élément trouvé"
-
-#: cklibrary/class-ck-list-table.php:307
-msgid "Bulk Actions"
-msgstr "Actions"
-
-#: cklibrary/class-ck-list-table.php:317
-msgid "Apply"
-msgstr "Appliquer"
-
-#: cklibrary/class-ck-list-table.php:401
-msgid "All dates"
-msgstr "Toutes les dates"
-
-#. translators: 1: month name, 2: 4-digit year
-#: cklibrary/class-ck-list-table.php:414
-#, php-format
-msgid "%1$s %2$d"
-msgstr "%1$s %2$d"
-
-#: cklibrary/class-ck-list-table.php:430
-msgid "List View"
-msgstr "Vue en liste"
-
-#: cklibrary/class-ck-list-table.php:431
-msgid "Excerpt View"
-msgstr "Vue excerpt"
-
-#: cklibrary/class-ck-list-table.php:457
-#, php-format
-msgid "%s pending"
-msgstr "%s en attente"
-
-#: cklibrary/class-ck-list-table.php:525 cklibrary/class-ck-list-table.php:940
-#, php-format
-msgid "1 item"
-msgid_plural "%s items"
-msgstr[0] "1 élément"
-msgstr[1] "%s éléments"
-
-#: cklibrary/class-ck-list-table.php:543
-msgid "Go to the first page"
-msgstr "Aller à la première page"
-
-#: cklibrary/class-ck-list-table.php:550
-msgid "Go to the previous page"
-msgstr "Aller à la page précedente"
-
-#: cklibrary/class-ck-list-table.php:559
-msgid "Current page"
-msgstr "Page courante"
-
-#: cklibrary/class-ck-list-table.php:565
-#, php-format
-msgctxt "paging"
-msgid "%1$s of %2$s"
-msgstr "%1$s de %2$s"
-
-#: cklibrary/class-ck-list-table.php:569
-msgid "Go to the next page"
-msgstr "Aller à la page suivante"
-
-#: cklibrary/class-ck-list-table.php:576
-msgid "Go to the last page"
-msgstr "Aller à la dernière page"
-
-#: cklibrary/class-ck-list-table.php:712
-msgid "Select All"
-msgstr "Sélectionner tous"
-
-#: includes/class-ck-slideshow-table.php:155 includes/slideshowck_edit.php:105
+#: includes/class-ck-slideshow-table.php:155
+#: includes/class.list-table.general.php:155 includes/layout.edit.php:95
+#: includes/slideshowck_edit.php:105
 msgid "Name"
 msgstr "Nom"
 
 #: includes/class-ck-slideshow-table.php:156
+#: includes/class.list-table.general.php:156
 msgid "Shortcode"
 msgstr "Shortcode"
 
 #: includes/class-ck-slideshow-table.php:157
+#: includes/class.list-table.general.php:157
 msgid "ID"
 msgstr "ID"
 
 #: includes/class-ck-slideshow-table.php:199
+#: includes/class.list-table.general.php:199
 msgid "Delete"
 msgstr "Supprimer"
 
-#: includes/class-ck-slideshow-table.php:200 includes/slideshowck_edit.php:98
-#: slideshow-ck.php:230
+#: includes/class-ck-slideshow-table.php:200
+#: includes/class.list-table.general.php:201 includes/layout.edit.php:88
+#: includes/slideshowck_edit.php:98 slideshow-ck.php:248
 msgid "Edit"
 msgstr "Editer"
 
@@ -160,6 +95,18 @@ msgstr "Impossible de créer le dossier"
 msgid "Unable to write the file"
 msgstr "Impossible de créer le fichier"
 
+#: includes/class.fields.php:114 includes/class.fields.php:150
+msgid "yes"
+msgstr "Oui"
+
+#: includes/class.fields.php:115 includes/class.fields.php:151
+msgid "no"
+msgstr "Non"
+
+#: includes/class.fields.php:186
+msgid "Clear"
+msgstr "Effacer"
+
 #: includes/class.file.php:204
 msgid "Can not find source file"
 msgstr "Impossible de trouver le fichier"
@@ -176,256 +123,357 @@ msgstr "Erreur Class CK Folder : Le dossier existe déjà"
 msgid "Error CK Folder Class : Rename failed"
 msgstr "Erreur Class CK Folder : Impossible de renommer"
 
-#: includes/slideshowck_edit.php:6
+#: includes/class.list-table.general.php:200
+msgid "Copy"
+msgstr "Copier"
+
+#: includes/class.list-table.general.php:209
+msgid "You must select an item for this action."
+msgstr "Vous devez sélectionner un élément pour effectuer cette action."
+
+#: includes/class.list-table.php:180
+msgid "No items found."
+msgstr "Aucun élément trouvé"
+
+#: includes/class.list-table.php:304
+msgid "Bulk Actions"
+msgstr "Actions"
+
+#: includes/class.list-table.php:314
+msgid "Apply"
+msgstr "Appliquer"
+
+#: includes/class.list-table.php:398
+msgid "All dates"
+msgstr "Toutes les dates"
+
+#. translators: 1: month name, 2: 4-digit year
+#: includes/class.list-table.php:411
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: includes/class.list-table.php:427
+msgid "List View"
+msgstr "Vue en liste"
+
+#: includes/class.list-table.php:428
+msgid "Excerpt View"
+msgstr "Vue excerpt"
+
+#: includes/class.list-table.php:454
+#, php-format
+msgid "%s pending"
+msgstr "%s en attente"
+
+#: includes/class.list-table.php:522 includes/class.list-table.php:937
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 élément"
+msgstr[1] "%s éléments"
+
+#: includes/class.list-table.php:540
+msgid "Go to the first page"
+msgstr "Aller à la première page"
+
+#: includes/class.list-table.php:547
+msgid "Go to the previous page"
+msgstr "Aller à la page précedente"
+
+#: includes/class.list-table.php:556
+msgid "Current page"
+msgstr "Page courante"
+
+#: includes/class.list-table.php:562
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s de %2$s"
+
+#: includes/class.list-table.php:566
+msgid "Go to the next page"
+msgstr "Aller à la page suivante"
+
+#: includes/class.list-table.php:573
+msgid "Go to the last page"
+msgstr "Aller à la dernière page"
+
+#: includes/class.list-table.php:709
+msgid "Select All"
+msgstr "Sélectionner tous"
+
+#: includes/layout.edit.php:6 includes/slideshowck_edit.php:6
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Vous n'avez pas la permission d'accéder à cette page"
 
-#: includes/slideshowck_edit.php:43 slideshow-ck.php:198
+#: includes/layout.edit.php:32 includes/slideshowck_edit.php:43
+#: slideshow-ck.php:215
 msgid "Invalid post type"
 msgstr "Type de post invalide"
 
-#: includes/slideshowck_edit.php:99
+#: includes/layout.edit.php:89 includes/slideshowck_edit.php:99
 msgid "Save"
 msgstr "Enregistrer"
 
-#: includes/slideshowck_edit.php:107
+#: includes/layout.edit.php:97 includes/slideshowck_edit.php:107
 msgid "Load demo data"
 msgstr "Charger les données d'exemple"
 
-#: includes/slideshowck_edit.php:112
+#: includes/layout.edit.php:102 includes/slideshowck_edit.php:112
 msgid "Images"
 msgstr "Images"
 
-#: includes/slideshowck_edit.php:113
+#: includes/layout.edit.php:103 includes/slideshowck_edit.php:113
 msgid "Styles"
 msgstr "Styles"
 
-#: includes/slideshowck_edit.php:114
+#: includes/layout.edit.php:104 includes/slideshowck_edit.php:114
 msgid "Effects"
 msgstr "Effets"
 
-#: includes/slideshowck_edit.php:121
+#: includes/layout.edit.php:111 includes/slideshowck_edit.php:121
 msgid "Slides Manager"
 msgstr "Gestionnaire de slides"
 
+#: includes/layout.edit.php:121 includes/layout.edit.php:148
 #: includes/slideshowck_edit.php:131 includes/slideshowck_edit.php:155
 msgid "Add a Slide"
 msgstr "Ajouter un slide"
 
+#: includes/layout.edit.php:125 includes/layout.edit.php:133
 #: includes/slideshowck_edit.php:135
 msgid "Import slides from a folder"
 msgstr "Importer les images d'un dossier"
 
-#: includes/slideshowck_edit.php:139
+#: includes/layout.edit.php:129 includes/slideshowck_edit.php:139
 msgid "Import"
 msgstr "Importer"
 
-#: includes/slideshowck_edit.php:169
+#: includes/layout.edit.php:133 slideshow-ck.php:862
+msgid "Download the Pro Addon"
+msgstr "Télécharger l'addon Pro"
+
+#: includes/layout.edit.php:133
+msgid "to"
+msgstr "vers"
+
+#: includes/layout.edit.php:162 includes/slideshowck_edit.php:169
 msgid "Height"
 msgstr "Hauteur"
 
-#: includes/slideshowck_edit.php:173
+#: includes/layout.edit.php:166 includes/slideshowck_edit.php:173
 msgid "Width"
 msgstr "Largeur"
 
-#: includes/slideshowck_edit.php:178
+#: includes/layout.edit.php:171 includes/slideshowck_edit.php:178
 msgid "Yes"
 msgstr "Oui"
 
-#: includes/slideshowck_edit.php:179
+#: includes/layout.edit.php:172 includes/slideshowck_edit.php:179
 msgid "No"
 msgstr "Non"
 
-#: includes/slideshowck_edit.php:183
+#: includes/layout.edit.php:176 includes/slideshowck_edit.php:183
 msgid "Loader icon"
 msgstr "Icône"
 
-#: includes/slideshowck_edit.php:186
+#: includes/layout.edit.php:179 includes/slideshowck_edit.php:186
 msgid "Bar"
 msgstr "Barre"
 
-#: includes/slideshowck_edit.php:187
+#: includes/layout.edit.php:180 includes/slideshowck_edit.php:187
 msgid "None"
 msgstr "Aucun"
 
-#: includes/slideshowck_edit.php:193
+#: includes/layout.edit.php:186 includes/slideshowck_edit.php:193
 msgid "Navigation"
 msgstr "Navigation"
 
-#: includes/slideshowck_edit.php:199
+#: includes/layout.edit.php:192 includes/slideshowck_edit.php:199
 msgid "Thumbnails"
 msgstr "Miniatures"
 
-#: includes/slideshowck_edit.php:205
+#: includes/layout.edit.php:198 includes/slideshowck_edit.php:205
 msgid "Pagination"
 msgstr "Pagination"
 
-#: includes/slideshowck_edit.php:213
+#: includes/layout.edit.php:206 includes/slideshowck_edit.php:213
 msgid "Theme"
 msgstr "Thème"
 
-#: includes/slideshowck_edit.php:218
+#: includes/layout.edit.php:211 includes/slideshowck_edit.php:218
 msgid "Skin"
 msgstr "Apparence"
 
-#: includes/slideshowck_edit.php:257
+#: includes/layout.edit.php:250 includes/slideshowck_edit.php:257
 msgid "Thumbnail height"
 msgstr "Hauteur de la miniature"
 
-#: includes/slideshowck_edit.php:262
+#: includes/layout.edit.php:255 includes/slideshowck_edit.php:262
 msgid "Caption Title"
 msgstr "Titre"
 
-#: includes/slideshowck_edit.php:264
+#: includes/layout.edit.php:257 includes/slideshowck_edit.php:264
 msgid "Title Color"
 msgstr "Couleur du titre"
 
+#: includes/layout.edit.php:262 includes/layout.edit.php:294
 #: includes/slideshowck_edit.php:269 includes/slideshowck_edit.php:301
 msgid "Font Size"
 msgstr "Taille de police"
 
+#: includes/layout.edit.php:267 includes/layout.edit.php:299
 #: includes/slideshowck_edit.php:274 includes/slideshowck_edit.php:306
 msgid "Font Family"
 msgstr "Famille de police"
 
+#: includes/layout.edit.php:280 includes/layout.edit.php:312
 #: includes/slideshowck_edit.php:287 includes/slideshowck_edit.php:319
 msgid "Font Weight"
 msgstr "Style de police"
 
-#: includes/slideshowck_edit.php:290 includes/slideshowck_edit.php:322
-#: includes/slideshowck_edit.php:484
+#: includes/layout.edit.php:283 includes/layout.edit.php:315
+#: includes/layout.edit.php:477 includes/slideshowck_edit.php:290
+#: includes/slideshowck_edit.php:322 includes/slideshowck_edit.php:484
 msgid "Normal"
 msgstr "Normal"
 
+#: includes/layout.edit.php:283 includes/layout.edit.php:315
 #: includes/slideshowck_edit.php:290 includes/slideshowck_edit.php:322
 msgid "Bold"
 msgstr "Gras"
 
-#: includes/slideshowck_edit.php:294
+#: includes/layout.edit.php:287 includes/slideshowck_edit.php:294
 msgid "Caption Description"
 msgstr "Description"
 
-#: includes/slideshowck_edit.php:296
+#: includes/layout.edit.php:289 includes/slideshowck_edit.php:296
 msgid "Description Color"
 msgstr "Couleur de la description"
 
-#: includes/slideshowck_edit.php:326
+#: includes/layout.edit.php:319 includes/slideshowck_edit.php:326
 msgid "Caption Styles"
 msgstr "Styles de la légende"
 
-#: includes/slideshowck_edit.php:328
+#: includes/layout.edit.php:321 includes/slideshowck_edit.php:328
 msgid "Background Color"
 msgstr "Couleur de fond"
 
-#: includes/slideshowck_edit.php:334
+#: includes/layout.edit.php:327 includes/slideshowck_edit.php:334
 msgid "Opacity"
 msgstr "Opacité"
 
-#: includes/slideshowck_edit.php:339
+#: includes/layout.edit.php:332 includes/slideshowck_edit.php:339
 msgid "Margin"
 msgstr "Marges"
 
+#: includes/layout.edit.php:334 includes/layout.edit.php:345
 #: includes/slideshowck_edit.php:341 includes/slideshowck_edit.php:352
 msgid "Top"
 msgstr "Haut"
 
+#: includes/layout.edit.php:336 includes/layout.edit.php:347
 #: includes/slideshowck_edit.php:343 includes/slideshowck_edit.php:354
 msgid "Right"
 msgstr "Droite"
 
+#: includes/layout.edit.php:338 includes/layout.edit.php:349
 #: includes/slideshowck_edit.php:345 includes/slideshowck_edit.php:356
 msgid "Bottom"
 msgstr "Bas"
 
+#: includes/layout.edit.php:340 includes/layout.edit.php:351
 #: includes/slideshowck_edit.php:347 includes/slideshowck_edit.php:358
 msgid "Left"
 msgstr "Gauche"
 
-#: includes/slideshowck_edit.php:350
+#: includes/layout.edit.php:343 includes/slideshowck_edit.php:350
 msgid "Padding"
 msgstr "Marge interne"
 
-#: includes/slideshowck_edit.php:361
+#: includes/layout.edit.php:354 includes/slideshowck_edit.php:361
 msgid "Border Radius"
 msgstr "Coins arrondis"
 
-#: includes/slideshowck_edit.php:363
+#: includes/layout.edit.php:356 includes/slideshowck_edit.php:363
 msgid "Top Left"
 msgstr "Haut gauche"
 
-#: includes/slideshowck_edit.php:365
+#: includes/layout.edit.php:358 includes/slideshowck_edit.php:365
 msgid "Top Right"
 msgstr "Haut droite"
 
-#: includes/slideshowck_edit.php:367
+#: includes/layout.edit.php:360 includes/slideshowck_edit.php:367
 msgid "Bottom Right"
 msgstr "Bas droite"
 
-#: includes/slideshowck_edit.php:369
+#: includes/layout.edit.php:362 includes/slideshowck_edit.php:369
 msgid "Bottom Left"
 msgstr "Bas gauche"
 
-#: includes/slideshowck_edit.php:372
+#: includes/layout.edit.php:365 includes/slideshowck_edit.php:372
 msgid "Border"
 msgstr "Bordure"
 
-#: includes/slideshowck_edit.php:379
+#: includes/layout.edit.php:372 includes/slideshowck_edit.php:379
 msgid "Shadow"
 msgstr "Ombre"
 
-#: includes/slideshowck_edit.php:391
+#: includes/layout.edit.php:384 includes/slideshowck_edit.php:391
 msgid "Out"
 msgstr "Externe"
 
-#: includes/slideshowck_edit.php:391
+#: includes/layout.edit.php:384 includes/slideshowck_edit.php:391
 msgid "In"
 msgstr "Interne"
 
-#: includes/slideshowck_edit.php:398
+#: includes/layout.edit.php:391 includes/slideshowck_edit.php:398
 msgid "Animation"
 msgstr "Animation"
 
-#: includes/slideshowck_edit.php:434
+#: includes/layout.edit.php:427 includes/slideshowck_edit.php:434
 msgid "Caption animation"
 msgstr "Animation de la légende"
 
-#: includes/slideshowck_edit.php:450 slideshow-ck.php:416
+#: includes/layout.edit.php:443 includes/slideshowck_edit.php:450
+#: slideshow-ck.php:434
 msgid "Slide duration"
 msgstr "Durée du slide"
 
-#: includes/slideshowck_edit.php:455
+#: includes/layout.edit.php:448 includes/slideshowck_edit.php:455
 msgid "Transition duration"
 msgstr "Durée de la transition"
 
-#: includes/slideshowck_edit.php:460
+#: includes/layout.edit.php:453 includes/slideshowck_edit.php:460
 msgid "Crop images"
 msgstr "Ajuster les images"
 
-#: includes/slideshowck_edit.php:467
+#: includes/layout.edit.php:460 includes/slideshowck_edit.php:467
 msgid "Autoplay"
 msgstr "Lecture automatique"
 
-#: includes/slideshowck_edit.php:474
+#: includes/layout.edit.php:467 includes/slideshowck_edit.php:474
 msgid "Pause on mouseover"
 msgstr "Pause au survol"
 
-#: includes/slideshowck_edit.php:481
+#: includes/layout.edit.php:474 includes/slideshowck_edit.php:481
 msgid "Display order"
 msgstr "Ordre d'affichage"
 
-#: includes/slideshowck_edit.php:485
+#: includes/layout.edit.php:478 includes/slideshowck_edit.php:485
 msgid "Random"
 msgstr "Aléatoire"
 
-#: includes/slideshowck_edit.php:490
+#: includes/layout.edit.php:483 includes/slideshowck_edit.php:490
 msgid "Full page background"
 msgstr "Fond de page pleine largeur"
 
-#: includes/slideshowck_edit.php:497
+#: includes/layout.edit.php:490 includes/slideshowck_edit.php:497
 msgid "Container background"
 msgstr "Fond de conteneur"
 
-#: includes/slideshowck_edit.php:502
+#: includes/layout.edit.php:495 includes/slideshowck_edit.php:502
 msgid ""
 "Write the css selector (e.g. : #main) of the element where to place the "
 "slideshow"
@@ -433,25 +481,28 @@ msgstr ""
 "Ecrivez un sélecteur css (ex : #main) de l'élément dans lequel placer le "
 "slideshow en fond"
 
-#: includes/slideshowck_edit.php:505
+#: includes/layout.edit.php:498 includes/slideshowck_edit.php:505
 msgid "Image link target"
 msgstr "Cible du lien"
 
+#: includes/layout.edit.php:503 includes/layout.edit.php:509
 #: includes/slideshowck_edit.php:510 includes/slideshowck_edit.php:516
-#: slideshow-ck.php:458 slideshow-ck.php:465
+#: slideshow-ck.php:476 slideshow-ck.php:483
 msgid "Open in the same window"
 msgstr "Ouvrir dans la meme fenêtre"
 
+#: includes/layout.edit.php:504 includes/layout.edit.php:510
 #: includes/slideshowck_edit.php:511 includes/slideshowck_edit.php:517
-#: slideshow-ck.php:459 slideshow-ck.php:466
+#: slideshow-ck.php:477 slideshow-ck.php:484
 msgid "Open in a new window"
 msgstr "Ouvrir dans une nouvelle fenêtre"
 
-#: includes/slideshowck_edit.php:512 slideshow-ck.php:460
+#: includes/layout.edit.php:505 includes/slideshowck_edit.php:512
+#: slideshow-ck.php:478
 msgid "Open in a Lightbox"
 msgstr "Ouvrir dans une Lightbox"
 
-#: includes/slideshowck_edit.php:523
+#: includes/layout.edit.php:516 includes/slideshowck_edit.php:523
 msgid ""
 "The Lightbox option can be used with any plugin that uses the rel attribute "
 "\"lightbox\". You can use the plugin "
@@ -459,12 +510,13 @@ msgstr ""
 "L'option lightbox fonctionne avec n'importe quel plugin utilisant l'attribut "
 "rel \"lightbox\". Vous pouvez utiliser le plugin "
 
-#: includes/slideshowck_general.php:20 slideshow-ck.php:319
-#: slideshow-ck.php:333
+#: includes/layout.general.php:20 includes/slideshowck_general.php:20
+#: slideshow-ck.php:337 slideshow-ck.php:351
 msgid "Pro Addon must be updated !"
 msgstr "L'addon Pro doit être mis à jour !"
 
-#: includes/slideshowck_general.php:24 slideshow-ck.php:230
+#: includes/layout.general.php:24 includes/slideshowck_general.php:24
+#: slideshow-ck.php:248
 msgid "Add New"
 msgstr "Créer nouveau"
 
@@ -476,153 +528,152 @@ msgstr "Affiche un Slideshow CK dans votre site web"
 msgid "Select the slideshow to load"
 msgstr "Sélectionner le slideshow à charger"
 
-#: slideshow-ck.php:139 slideshow-ck.php:140 slideshow-ck.php:229
+#: slideshow-ck.php:156 slideshow-ck.php:157 slideshow-ck.php:247
 msgid "Slideshow CK"
 msgstr "Slideshow CK"
 
-#: slideshow-ck.php:141 slideshow-ck.php:142 slideshow-ck.php:144
+#: slideshow-ck.php:158 slideshow-ck.php:159 slideshow-ck.php:161
 msgid "Add New Slideshow"
 msgstr "Ajouter un slideshow"
 
-#: slideshow-ck.php:143
+#: slideshow-ck.php:160
 msgid "Edit Slideshow"
 msgstr "Editer le slideshow"
 
-#: slideshow-ck.php:145
+#: slideshow-ck.php:162
 msgid "View Slideshow"
 msgstr "Voir le slideshow"
 
-#: slideshow-ck.php:146
+#: slideshow-ck.php:163
 msgid "Search Slideshow"
 msgstr "Chercher un slidesho"
 
-#: slideshow-ck.php:147
+#: slideshow-ck.php:164
 msgid "No events found"
 msgstr "Aucun élément trouvé"
 
-#: slideshow-ck.php:148
+#: slideshow-ck.php:165
 msgid "No events found in trash"
 msgstr "Rien trouvé dans la poubelle"
 
-#: slideshow-ck.php:229
+#: slideshow-ck.php:247
 msgid "All Slideshows"
 msgstr "Tous les slideshows"
 
-#: slideshow-ck.php:315 slideshow-ck.php:331
+#: slideshow-ck.php:333 slideshow-ck.php:349
 msgid "Get the PRO Version"
 msgstr "Obtenir la version Complète"
 
-#: slideshow-ck.php:317
+#: slideshow-ck.php:335
 msgid "You are using the PRO Version. Thank you !"
 msgstr "Vous utilisez la version PRO. Merci !"
 
-#: slideshow-ck.php:397
+#: slideshow-ck.php:415
 msgid "Title"
 msgstr "Titre"
 
-#: slideshow-ck.php:400
+#: slideshow-ck.php:418
 msgid "Description"
 msgstr "Description"
 
-#: slideshow-ck.php:405
+#: slideshow-ck.php:423
 msgid "Options"
 msgstr "Options"
 
-#: slideshow-ck.php:408
+#: slideshow-ck.php:426
 msgid "Duration"
 msgstr "Durée"
 
-#: slideshow-ck.php:409
+#: slideshow-ck.php:427
 msgid "Alignment"
 msgstr "Alignement"
 
-#: slideshow-ck.php:410
+#: slideshow-ck.php:428
 msgid "Link"
 msgstr "Lien"
 
-#: slideshow-ck.php:411
+#: slideshow-ck.php:429
 msgid "Video"
 msgstr "Vidéo"
 
-#: slideshow-ck.php:421
+#: slideshow-ck.php:439
 msgid "Leave it blank to use the global setting"
 msgstr "Laisser vide pour utiliser les paramètres globaux"
 
-#: slideshow-ck.php:426
+#: slideshow-ck.php:444
 msgid "Image alignment"
 msgstr "Alignement de l'image"
 
-#: slideshow-ck.php:430
+#: slideshow-ck.php:448
 msgid "default"
 msgstr "Défaut"
 
-#: slideshow-ck.php:431
+#: slideshow-ck.php:449
 msgid "top left"
 msgstr "haut gauche"
 
-#: slideshow-ck.php:432
+#: slideshow-ck.php:450
 msgid "top center"
 msgstr "haut centre"
 
-#: slideshow-ck.php:433
+#: slideshow-ck.php:451
 msgid "top right"
 msgstr "haut droite"
 
-#: slideshow-ck.php:434
+#: slideshow-ck.php:452
 msgid "center left"
 msgstr "centre gauche"
 
-#: slideshow-ck.php:435
+#: slideshow-ck.php:453
 msgid "center"
 msgstr "centre"
 
-#: slideshow-ck.php:436
+#: slideshow-ck.php:454
 msgid "center right"
 msgstr "centre droite"
 
-#: slideshow-ck.php:437
+#: slideshow-ck.php:455
 msgid "bottom left"
 msgstr "bas gauche"
 
-#: slideshow-ck.php:438
+#: slideshow-ck.php:456
 msgid "bottom center"
 msgstr "bas centre"
 
-#: slideshow-ck.php:439
+#: slideshow-ck.php:457
 msgid "bottom right"
 msgstr "bas droite"
 
-#: slideshow-ck.php:447
+#: slideshow-ck.php:465
 msgid "Link url"
 msgstr "Url du lien"
 
-#: slideshow-ck.php:452
+#: slideshow-ck.php:470
 msgid "Target"
 msgstr "Cible"
 
-#: slideshow-ck.php:457 slideshow-ck.php:464
+#: slideshow-ck.php:475 slideshow-ck.php:482
 msgid "Default"
 msgstr "Défaut"
 
-#: slideshow-ck.php:476
+#: slideshow-ck.php:494
 msgid "Video url"
 msgstr "Url de la vidéo"
 
-#: slideshow-ck.php:705
-msgid "Read more"
-msgstr "En savoir plus"
+#: slideshow-ck.php:558
+msgid "Only available in the Pro Addon"
+msgstr "Uniquement disponible dans la version Pro"
 
-#: slideshow-ck.php:871
+#: slideshow-ck.php:860
 msgid "Developped By"
 msgstr "Développé par"
 
-#: slideshow-ck.php:872
+#: slideshow-ck.php:861
 msgid "Download the documentation"
 msgstr "Télécharger la documentation"
 
-#: slideshow-ck.php:873
-msgid "Download the Pro Addon"
-msgstr "Télécharger l'addon Pro"
+#~ msgid "Read more"
+#~ msgstr "En savoir plus"
 
 #~ msgid "Powered By"
 #~ msgstr "Développé par"
@@ -648,9 +699,6 @@ msgstr "Télécharger l'addon Pro"
 #~ msgid "Select the image to put as +"
 #~ msgstr "Sélectionner l'image à utiliser pour le +"
 
-#~ msgid "Clear"
-#~ msgstr "Effacer"
-
 #~ msgid "Minus image"
 #~ msgstr "Image Moins"
 
@@ -665,9 +713,6 @@ msgstr "Télécharger l'addon Pro"
 
 #~ msgid "Image position"
 #~ msgstr "Position de l'image"
-
-#~ msgid "Only available in the Pro Addon"
-#~ msgstr "Uniquement disponible dans la version Pro"
 
 #~ msgid "Get more options with the Pro Addon"
 #~ msgstr "Obtenez plus d'options avec la version Pro"
@@ -689,12 +734,6 @@ msgstr "Télécharger l'addon Pro"
 
 #~ msgid "Error saving data"
 #~ msgstr "Erreur pendant l'enregistrement"
-
-#~ msgid "yes"
-#~ msgstr "Oui"
-
-#~ msgid "no"
-#~ msgstr "Non"
 
 #~ msgid "Background color"
 #~ msgstr "Couleur de fond"

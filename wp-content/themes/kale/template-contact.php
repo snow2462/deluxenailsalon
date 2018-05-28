@@ -2,22 +2,22 @@
 <?php get_header(); ?>
 
 <h2 class="block-title" style="text-align: center;"><span><?php the_title(); ?></span></h2>
-<div class="row" data-fluid=".entry-title" align="center" style="font-size: 16px;">
+<div class="row" data-fluid=".entry-title" align="center" style="font-size: 16px; display: flex">
     <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
     $args = array(
         'post_type' => 'contacus',
         'post_status' => 'publish',
-        'posts_per_page' => 3,
+        'posts_per_page' => 2,
     ); ?>
     <?php query_posts($args); ?>
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="col-md-4" style="display: inline-block;">
+        <div class="col-md-4" style=" margin: 0 auto;">
             <h2 class="block-title"><span><?php the_title(); ?></span></h2>
             <div class="entry-content">
                 <div class="entry-thumb">
                     <?php the_post_thumbnail('contact-thumbnail'); ?>
                 </div>
-                <table style="line-height: 30px; width: 100%;" border="0">
+                <table style="line-height: 30px; width: 100%; margin:25px" border="0">
                     <?php if (have_rows('contact_info')):
                     while (have_rows('contact_info')) :
                     the_row(); ?>
@@ -32,13 +32,13 @@
                     </tr>
                     <tr>
                         <th rowspan="3" style="padding: 2px; color: #48855e;"><strong>Hours:</strong></th>
-                        <td style="padding: 2px;"><strong>Mon – Fri 9:30 am – 7:30 pm</strong></td>
+                        <td style="padding: 2px;"><strong>Mon – Fri <?php the_field('monday_to_friday') ?></strong></td>
                     </tr>
                     <tr>
-                        <td style="padding: 2px;"><strong>Sat 9:00 am – 7:00 pm</strong></td>
+                        <td style="padding: 2px;"><strong>Sat <?php the_field('saturday') ?></strong></td>
                     </tr>
                     <tr>
-                        <td style="padding: 2px;"><strong>Sun 11:30 am – 5:30 pm</strong></td>
+                        <td style="padding: 2px;"><strong>Sun <?php the_field('sunday') ?></strong></td>
                     </tr>
                     </tbody>
                 </table>

@@ -110,7 +110,7 @@ function kale_scripts() {
 
     }
     wp_register_style('bootstrap-select', get_template_directory_uri() . '/assets/css/bootstrap-select.min.css' );
-    wp_register_style('font-awesome', get_template_directory_uri().'/assets/css/font-awesome.min.css' );
+    wp_register_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
     wp_register_style('owl-carousel', get_template_directory_uri().'/assets/css/owl.carousel.css' );
     //fonts
     wp_enqueue_style('kale-googlefont1', '//fonts.googleapis.com/css?family=Montserrat:400,700'); #headings
@@ -136,7 +136,8 @@ function kale_scripts() {
     wp_enqueue_script('bootstrap-select', get_template_directory_uri() . '/assets/js/bootstrap-select.min.js', array('jquery','bootstrap'), '', true );
     wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array('jquery'), '', true );
     wp_enqueue_script('kale-js', get_template_directory_uri() . '/assets/js/kale.js', array('jquery'), '', true );
-    
+    wp_enqueue_script('masonry-etrust', get_template_directory_uri() . '/js/masonry.pkgd.min.js', false, NULL);
+
     //comments
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );
@@ -409,6 +410,7 @@ function filter_news()
     }
     echo '@@--@@' . ($offset + 4);
 }
+add_image_size('coupon','400', '300');
 ?>
 
 

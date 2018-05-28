@@ -1,7 +1,7 @@
 <?php /* Template Name: Template About */ ?>
 <?php get_header(); ?>
 <h2 class="block-title" style="text-align: center;"><span><?php the_title(); ?></span></h2>
-<?php do_slideshowck(239); ?>
+<?php echo do_shortcode("[huge_it_slider id='2']"); ?>
 
 <br>
 <h3 class="block-title" style=" padding-top: 30px; text-align: center;"><span>Thank you for choosing Deluxe Nail Salon</span></h3>
@@ -42,7 +42,7 @@
                         <table style="text-align: center; max-width: 70%; ">
                             <tr>
                                 <td>
-                                    <img src="<?php echo home_url('/') . 'image.php?image=' . get_sub_field('image') . '&width=128&height=128'; ?>"/>
+                                    <img src="/image.php?url=<?php echo get_sub_field('image')?>&width=128h&height=128&cropratio=1:1"/>
                                 </td>
                             </tr>
                             <tr>
